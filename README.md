@@ -12,14 +12,11 @@ The goal is to provide a transparent and organized platform where collaborators 
 
 The PhD consists of three papers, each employing different scientific methods. Each paper and the dissertation will have its own dedicated repository for meta data, scripts, analyses and manuscript development:
 
-- 📄 [Paper 1: RCT](https://github.com/Jonasmunkjensen/paper1)  
-  *A randomized controlled trial evaluating the added benefits of incorporating structured high-intensity interval training into diabetes self-management programs.*  
+- 📄 [Paper 1: RCT](https://github.com/Jonasmunkjensen/paper1) - *A randomized controlled trial evaluating the added benefits of incorporating structured high-intensity interval training into diabetes self-management programs.*  
 
-- 📄 [Paper 2: Qualitative study](https://github.com/Jonasmunkjensen/paper2) 
-  *A qualitative study exploring what is at stake when individuals with type 2 diabetes decide whether or not to engage in training.*  
+- 📄 [Paper 2: Qualitative study](https://github.com/Jonasmunkjensen/paper2) - *A qualitative study exploring what is at stake when individuals with type 2 diabetes decide whether or not to engage in training.*  
 
-- 📄 [Paper 3: Register-based study](https://github.com/Jonasmunkjensen/paper3)
-  *A register-based study investigating participation in diabetes self-management and exercise programs, as well as whether these programs increase physical activity compared to non-participants.*  
+- 📄 [Paper 3: Register-based study](https://github.com/Jonasmunkjensen/paper3) - *A register-based study investigating participation in diabetes self-management and exercise programs, as well as whether these programs increase physical activity compared to non-participants.*  
 
 - [Dissertation](https://github.com/Jonasmunkjensen/dissertation)
 
