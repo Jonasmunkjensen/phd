@@ -10,46 +10,40 @@ The goal is to provide a transparent and organized platform where collaborators 
 
 ## Research Overview
 
-The PhD consists of three papers, each employing different scientific methods:
+The PhD consists of three papers, each employing different scientific methods. Each paper and the dissertation will have its own dedicated repository for meta data, scripts, analyses and manuscript development:
 
-- 📄 [01-rct.qmd](01-rct.qmd)  
+- 📄 [Paper 1: RCT](https://github.com/Jonasmunkjensen/paper1)  
   *A randomized controlled trial evaluating the added benefits of incorporating structured high-intensity interval training into diabetes self-management programs.*  
 
-- 📄 [02-qualitative.qmd](02-qualitative.qmd)  
+- 📄 [Paper 2: Qualitative study](https://github.com/Jonasmunkjensen/paper2) 
   *A qualitative study exploring what is at stake when individuals with type 2 diabetes decide whether or not to engage in training.*  
 
-- 📄 [03-register.qmd](03-register.qmd)  
+- 📄 [Paper 3: Register-based study](https://github.com/Jonasmunkjensen/paper3)
   *A register-based study investigating participation in diabetes self-management and exercise programs, as well as whether these programs increase physical activity compared to non-participants.*  
 
-Each paper and the dissertation will have its own dedicated repository for data, analyses, and manuscript development:
-- [Paper 1: RCT](https://github.com/Jonasmunkjensen/paper1)  
-- [Paper 2: Qualitative study](https://github.com/Jonasmunkjensen/paper2)  
-- [Paper 3: Register-based study](https://github.com/Jonasmunkjensen/paper3)
 - [Dissertation](https://github.com/Jonasmunkjensen/dissertation)
 
 ## Repository Structure
 
 This repository serves as the **central hub** for project planning, milestones, and shared resources.  
 
-├── 01-rct.qmd             # Project description and notes for Paper 1
-├── 02-qualitative.qmd     # Project description and notes for Paper 2
-├── 03-register.qmd        # Project description and notes for Paper 3
-│
+```
+PhD-repository
 ├── docs/                  # General documentation, protocols, guidelines
 ├── plan/                  # Project plan, timelines, milestones
 ├── meetings/              # Agendas, notes, and reports
 ├── slides/                # Presentations for seminars, conferences, supervision
 ├── todo/                  # Ongoing tasks and to-do lists
-├── data/                  # Metadata about data sources (no sensitive data)
-├── scripts/               # General R scripts used across subprojects
 │
 └── README.md              # This file
+```
 
 ## Progress Tracking
+Progress across the three studies will be documented in this repository, allowing supervisors and collaborators to stay informed about the ongoing work in the other projects.
 
 - **Plan and milestones**: The `plan/` folder contains timelines and milestone documents.  
 - **Meeting notes**: The `meetings/` folder keeps records of discussions and decisions.  
-- **To-do tracking**: The `todo/` folder is used for task lists and progress logs.  
+- **To-do tracking**: The `todo/` folder is used for task lists and progress logs for the project. 
 
 ---
 
