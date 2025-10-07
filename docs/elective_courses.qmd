@@ -1,0 +1,53 @@
+---
+title: "elective courses"
+format: html
+---
+
+# List of elective courses
+
+During the course of your PhD study programme, you are required to complete PhD courses or similar subject elements totalling approximately 30 ECTS credits
+
+## Year 1: 
+
+How to secure funding for your research [0,8 ECTS}:
+07 November 2025 08:00 - 15:30
+
+Introduction to managing Research Data, FAIR principles, and Data search [0,3 ECTS]
+11 November 2025 09:00 - 12:00
+
+Health - Welcome to the PhD study [0,5 ECTS}: 
+13 November 2025 09:00 - 14:00
+
+Responsible Conduct of Research [1 ECTS]: 
+
+Introduction to Research Training in Health Sciences [1 ECTS]
+13 November 2025 08:00 - 16:00
+14 November 2025 08:00 - 16:00
+
+Epidemiology I [2,5 ECTS]: 
+18 November 2025 08:30 - 15:30
+19 November 2025 08:30 - 15:30
+20 November 2025 08:30 - 15:30
+21 November 2025 08:30 - 15:30
+
+Artificial intelligence for scientific writing [1,5 ECTS]
+01 December 2025 08:30 - 12:30
+08 December 2025 08:30 - 12:30
+
+PhD day:
+16 January 2026 08:00 - 15:30
+
+Basis biostatistics part 1. [2,4 ECTS] 
+
+Qualitative data analysis: Using NVivo [4,8 ECTS] 
+
+## Year 2: 
+Clinical Research [2,1] 
+Become a productive and joyful researcher [1,5 ECTS] 
+Introduction to register-based research [3,5 ECTS] 
+Basic biostatistics part 2 [3,9 ECTS] 
+
+## Year 3: 
+Epidemiology 2 [4,2 ECTS] 
+Basic Course in Written English [2,5 ECTS] 
+Advances course in written english [2,5 ECTS]
