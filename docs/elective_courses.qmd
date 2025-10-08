@@ -7,7 +7,29 @@ format: html
 
 During the course of your PhD study programme, you are required to complete PhD courses or similar subject elements totalling approximately 30 ECTS credits
 
-## Year 1: 
+Kursusadmin: 
+Johanne: 9352-2205
+tilde: 2087-0344
+
+## Interessante kurser 2026 [22 ECTS]
+
+Basic Biostatistics - part 1: [2,4 ECTS] - Fall/spring
+Basic Biostatistics - part 2: [3,9 ECTS] - Fall/spring
+
+Epidemiology I - Basic Principles of Epidemiology - [2,5 ECTS] - Fall
+Epidemiology II: [4,2 ECTS] - Fall
+
+Developing complex interventions in Public Health - [2,1 ECTS] - spring
+
+Qualitative data analysis: Using NVivo: [4,8 ECTS] - Fall
+
+Evaluating complex interventions in Public Health: [2,1 ECTS] - Spring
+
+
+
+
+
+## 2025 Q3: 
 
 How to secure funding for your research [0,8 ECTS}:
 07 November 2025 08:00 - 15:30
@@ -20,10 +42,6 @@ Health - Welcome to the PhD study [0,5 ECTS}:
 
 Responsible Conduct of Research [1 ECTS]: 
 
-Introduction to Research Training in Health Sciences [1 ECTS]
-13 November 2025 08:00 - 16:00
-14 November 2025 08:00 - 16:00
-
 Epidemiology I [2,5 ECTS]: 
 18 November 2025 08:30 - 15:30
 19 November 2025 08:30 - 15:30
@@ -33,6 +51,10 @@ Epidemiology I [2,5 ECTS]:
 Artificial intelligence for scientific writing [1,5 ECTS]
 01 December 2025 08:30 - 12:30
 08 December 2025 08:30 - 12:30
+
+## 2026 Q1 & Q2
+
+## 2026 Q3 & Q4
 
 PhD day:
 16 January 2026 08:00 - 15:30
