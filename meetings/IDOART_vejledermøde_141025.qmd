@@ -41,7 +41,7 @@ Ved mødets afslutning har vi:
    - Input fra Annelli til metode og analyser
 
 5. **Valgfag og undervisning**  
-   - Præsentation af valgfag 
+   - Præsentation af valgfag (https://github.com/Jonasmunkjensen/phd/blob/main/docs/elective_courses.qmd)
    - Idégenerering: Hvem kan vi kontakte for at finde relevante kurser?
 
 6. **Fælles vejledermøde 27. oktober** 
