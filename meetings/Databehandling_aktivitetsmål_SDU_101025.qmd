@@ -1,0 +1,54 @@
+---
+title: "Referat – Accelerometri og næste skridt"
+format: html
+---
+# Peter Lund Kristensen, Lektor ved SDU
+
+## Intention
+1. Forstå databehandlingen
+2. Klarhed over hvordan vi får databehandleraftalen på plads
+3. Få klarhed over hvordan vi deler data
+
+## Desired outcome
+1. Jeg forstår hvordan de forskellige aktivitetsniveauer bliver bestemt og kategoriseres. 
+2. Vi har gennemgået hvilke rettelser der skal være i DBAen før at SDU kan stå inde for den. 
+3. Vi har lagt en plan for hvordan jeg overleverer data til SDU og får det returneret (giver det bedst mening at jeg leverer det fysisk eller skal det overføres via en cloud?)
+4. Hvad er næste skridt?
+
+## Agenda
+Kort intro
+Gennemgå de 3 punkter ovenfor
+
+## Roles
+Jeg giver intro til projektet og hvordan vi indsamler data vha PP og billeder fra midtx
+
+## Time
+Vi har kun 30 min. Jeg forventer derfor ikke at vi når det hele, men at vi får planlagt et nyt møde eller at resten kan klares over mail. 
+
+# Referat
+
+## Baggrund
+
+Jeg har tidligere været i kontakt med **Jan (SDU)**, som fortalte, at de cut-off-værdier, de bruger til at skelne mellem aktivitetsniveauer, er alment anvendte og validerede – også når aktivitetsmåleren er placeret på låret.
+
+## Peters pointer om accelerometri
+
+Peter gav et indblik i nogle af de metodiske udfordringer:
+
+- De er gået et skridt tilbage i SDU-gruppen, fordi de ikke kan finde dokumentation for, at den databehandlingsmetode Jan anvender, faktisk er valideret.  
+- **Placering på låret** gør det muligt at identificere aktivitetstyper som fx cykling, rask gang, løb og stillesiddende tid. Til gengæld findes der ikke validerede cut-offs til at skelne mellem aktivitetsniveauer (lav, moderat, høj, søvn) ved denne placering.  
+- **Placering på hoften** giver bedre definerede cut-offs for aktivitetsniveauer.  
+- Hos **SENS** (som SDU nu samarbejder med) definerer man aktivitetsniveau ud fra aktivitetstype — fx kategoriseres cykling, rask gang og løb som moderat til høj fysisk aktivitet. Denne tilgang er dog ikke valideret.  
+- Cut-off-værdier mellem aktivitetsniveauer er **aldersafhængige**, hvilket er en udfordring i LIVING-studiet pga. det store aldersspænd.  
+- Cut-offs mellem **aktivitetstyper** bør derimod ikke være afhængige af alder.
+
+## Overvejelser om næste skridt
+
+- Jeg skal beslutte, om vi skal ændre det primære outcome fra *moderate to vigorous physical activity* (som powerberegningen er baseret på) til **aktivitetstyper**, hvilket metodisk passer bedre til placeringen af accelerometeret på låret.  
+- Hvis vi fastholder aktivitetsniveau som outcome, kan jeg undersøge brugen af **ENMO-metoden**, som vinder frem i feltet. Peter kender dog ikke til studier, der har valideret ENMO for lårplacering hos voksne.  
+- Hvis vi i stedet vælger at arbejde med **aktivitetstyper**, kan vi bruge SENS’ algoritmer, og Peter kan hjælpe med implementeringen. Alternativt findes det svenske program **ActiPASS**, som gør det muligt selv at bearbejde rådata.
+
+## Plan
+
+- Jeg kontakter Søren og får hans besyv på udfordringen.
+- Når vi sammen i forskergruppen er enige om hvilken vej vi skal gå, planlægger jeg nyt møde med Peter for at få styr på databahendleraftale og ligge en plan for databehandlingen. 

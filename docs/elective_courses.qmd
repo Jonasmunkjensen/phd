@@ -13,63 +13,100 @@ tilde: 2087-0344
 
 ## Interessante kurser 2026 [22 ECTS]
 
-Basic Biostatistics - part 1: [2,4 ECTS] - Fall/spring
-Basic Biostatistics - part 2: [3,9 ECTS] - Fall/spring
+How to secure funding for your research [0,8 ECTS]
+22 April 2026 08:00 - 15:30
 
-Epidemiology I - Basic Principles of Epidemiology - [2,5 ECTS] - Fall
 Epidemiology II: [4,2 ECTS] - Fall
 
-Developing complex interventions in Public Health - [2,1 ECTS] - spring
+Clinical Research [2,1 ECTS]
+08 June 2026 08:30 - 15:30
+09 June 2026 08:30 - 15:30
+10 June 2026 08:30 - 15:30
 
 Qualitative data analysis: Using NVivo: [4,8 ECTS] - Fall
 
-Evaluating complex interventions in Public Health: [2,1 ECTS] - Spring
 
 
 
 
+## 2025 Q3: [0 ECTS]; 
 
-## 2025 Q3: 
-
-How to secure funding for your research [0,8 ECTS}:
+(Waitling list) 
+How to secure funding for your research [0,8 ECTS]
 07 November 2025 08:00 - 15:30
 
-Introduction to managing Research Data, FAIR principles, and Data search [0,3 ECTS]
-11 November 2025 09:00 - 12:00
-
-Health - Welcome to the PhD study [0,5 ECTS}: 
+(Waitling list) 
+Health - Welcome to the PhD study [0,5 ECTS]
 13 November 2025 09:00 - 14:00
 
-Responsible Conduct of Research [1 ECTS]: 
-
-Epidemiology I [2,5 ECTS]: 
+(Waitling list) 
+Epidemiology I - Basic Principles of Epidemiology - [2,5 ECTS] - Fall
 18 November 2025 08:30 - 15:30
 19 November 2025 08:30 - 15:30
 20 November 2025 08:30 - 15:30
 21 November 2025 08:30 - 15:30
 
+(Waitling list) 
 Artificial intelligence for scientific writing [1,5 ECTS]
-01 December 2025 08:30 - 12:30
-08 December 2025 08:30 - 12:30
 
-## 2026 Q1 & Q2
 
-## 2026 Q3 & Q4
+## 2026 Q1 og Q2 [9,7 ECTS]
 
-PhD day:
-16 January 2026 08:00 - 15:30
+Developing complex interventions in Public Health [2,4 ECTS] - Spring
+07 January 2026 09:00 - 16:00
+08 January 2026 09:00 - 16:00
+09 January 2026 09:00 - 16:00
 
-Basis biostatistics part 1. [2,4 ECTS] 
+Basic Biostatistics - part 1: [2,4 ECTS]
+14 January 2026 09:15 - 16:00
+21 January 2026 09:15 - 16:00
+28 January 2026 09:15 - 16:00
+04 February 2026 09:15 - 16:00
 
-Qualitative data analysis: Using NVivo [4,8 ECTS] 
+Evaluating complex interventions in Public Health [2,4]
+18 March 2026 09:00 - 16:00
+19 March 2026 09:00 - 16:00
+20 March 2026 09:00 - 16:00
 
-## Year 2: 
-Clinical Research [2,1] 
-Become a productive and joyful researcher [1,5 ECTS] 
-Introduction to register-based research [3,5 ECTS] 
-Basic biostatistics part 2 [3,9 ECTS] 
+Responsible Conduct of Research [1 ECTS]
+09 April 2026 08:15 - 12:45
+15 April 2026 08:15 - 12:45
 
-## Year 3: 
-Epidemiology 2 [4,2 ECTS] 
-Basic Course in Written English [2,5 ECTS] 
-Advances course in written english [2,5 ECTS]
+Course Become a productive and joyful researcher [1,5 ECST]
+
+Clinical Research [2,1]
+08 June 2026 08:30 - 15:30
+09 June 2026 08:30 - 15:30
+10 June 2026 08:30 - 15:30
+
+## 2026 Q3 og Q4 [8,1 ECTS]
+
+Introduction to register-based research [3,5 ECTS]
+03 November 2026 09:00 - 15:30
+04 November 2026 09:00 - 15:30
+09 November 2026 09:00 - 15:30
+10 November 2026 09:00 - 15:30
+11 November 2026 09:00 - 15:30
+
+Measuring socioeconomic position in epidemiological and clinical research [ECTS 2]
+24 November 2026 09:00 - 15:30
+25 November 2026 09:00 - 15:30
+26 November 2026 09:00 - 15:30
+
+(Waiting list)
+Advanced R
+
+
+
+
+Introduction to managing Research Data, FAIR principles, and Data search [0,3 ECTS]
+11 November 2025 09:00 - 12:00
+
+
+
+
+
+
+
+
+
