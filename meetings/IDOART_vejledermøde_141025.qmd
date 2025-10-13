@@ -18,7 +18,7 @@ Ved mødets afslutning har vi:
 - Aftalt prioritering af fondsansøgninger og omfang af arbejdet  
 - Truffet beslutning om brug af GitHub som projektstyringsværktøj  
 - Enighed om den overordnede analyseplan for Paper 1  
-- Identificeret en relevant kontaktperson, som kan hjælpe med at finde undervisningsmuligheder 
+- Fundet en relevant kontaktperson, som kan hjælpe med at finde undervisningsmuligheder 
 - Fået Annellis input til dagsordenen for det fælles vejledermøde den 27. oktober
 
 ## 📋 Agenda
@@ -33,20 +33,19 @@ Ved mødets afslutning har vi:
      - [Paper 3](https://github.com/Jonasmunkjensen/paper3)
 
 2. **Fondsansøgninger** 
-   - Status på fondsansøgninger (foreløbige afslag)  
-   - Aftale om fremadrettet fondsstrategi
+   - Status på fondsansøgninger (foreløbige afslag)   
+   - Fremadrettet fondsstrategi
 
 4. **Paper 1 – Analyseplan**
-   - Gennemgang af foreløbige overvejelser  
-   - Input fra Annelli til metode og analyser
+   - Overvejelser  
+   - Input fra Annelli til metode
 
 5. **Valgfag og undervisning**  
-   - Præsentation af valgfag (https://github.com/Jonasmunkjensen/phd/blob/main/docs/elective_courses.qmd)
-   - Idégenerering: Hvem kan vi kontakte for at finde relevante kurser?
+   - Valgfag (https://github.com/Jonasmunkjensen/phd/blob/main/docs/elective_courses.qmd)
+   - Idégenerering: Hvem kan vi kontakte for at finde relevante kurser? Jeanette Reffstrup Christensen (sundhedsfaglige kandidat):                  https://www.au.dk/jrc@ph.au.dk/
 
 6. **Fælles vejledermøde 27. oktober** 
-   - Gennemgang af udkast til dagsorden  
-   - Input fra Annelli ift. prioriteringer og roller
+   - Udkast til dagsorden  
         - Introduktion af personer (bordet rundt)
         - Intro til Github som projektværktæj
         - Gennemgang af de 3 forskellige papers og hvem som jeg tænker skal være på som fortattere
