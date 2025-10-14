@@ -4,9 +4,11 @@ date: "2025-10-14"
 format: html
 ---
 
+# IDOART
+
 ## Tid og sted
 **Tid:** 60 min  
-**Sted:** Annellis kontor, Aarhus Universitet  
+**Sted:** Online
 
 ## 🟡 Intention
 Formålet med mødet er at give en samlet status på ph.d.-projektet og blive enige omkring projektledelsen, fondsansøgningerne, analyseplan for Paper 1 og det fælles vejledermøde. 
@@ -26,7 +28,7 @@ Ved mødets afslutning har vi:
 1. **Projektstyring og GitHub**
    - IDOART som mødeværktøj
    - Præsentation af opsætning
-     - [Gantt og TODO](https://github.com/users/Jonasmunkjensen/projects/2) 
+     - [Gantt og TODO](https://github.com/users/Jonasmunkjensen/projects/2)
      - [Ph.d.-landing page](https://github.com/Jonasmunkjensen/phd)  
      - [Paper 1](https://github.com/Jonasmunkjensen/paper1)  
      - [Paper 2](https://github.com/Jonasmunkjensen/paper2)  
@@ -47,14 +49,31 @@ Ved mødets afslutning har vi:
 6. **Fælles vejledermøde 27. oktober** 
    - Udkast til dagsorden  
         - Introduktion af personer (bordet rundt)
-        - Intro til Github som projektværktæj
-        - Gennemgang af de 3 forskellige papers og hvem som jeg tænker skal være på som fortattere
-        - Tidslinje og hvornår er hvem mest på. 
+        - Gennemgang af de 3 forskellige papers og status på projektet 
+        - Tidslinje og hvornår er hvem mest på.
+        - Forfatterrække - vores forslag
+            RCT: Anette Sidste forfatter (fordi projektet skal udgå fra STENO), Søren anden forfatter, Henrik, Annelli, SDU
+            Kvalitativt studie: Sara (sidsteforfatter), Anette
+            Register: Anette (sidsteforfatter), Kasper, Annelli, Anden yngre forsker?? 
         - Fremtidige møder, mødefrekvens. Hvem vil inviteres til hvilke møder? 
+        - Undervisning (overvejeler og input fra vejledere)
+        - Github som projektværktæj
         - andet?
 
 ## 👤 Roles & Rules
 - Jonas sender IDOART ud inden mødet.  
 - Efter mødet lægger Jonas et kort beslutningsreferat under `/meeting` i GitHub-repositoriet:  
   [https://github.com/Jonasmunkjensen/phd](https://github.com/Jonasmunkjensen/phd)
+
+
+# Beslutningsreferat
+
+## Fondsansøgninger:
+Ikke prioritere nu. Derefter DFF tematisk (klinisk), Trygfonden (ring ind) og Helsefonden
+
+Annelli:
+Sender kontakter fra institut for folkesundhed
+Via: 
+Fys som er lektor: Kontakt fra NABRO?? 
+Thomas wurst Jensen
 
