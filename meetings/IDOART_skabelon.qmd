@@ -5,6 +5,8 @@ format: html
 
 # Dagsorden og beslutningsreferat
 
+## Deltagere
+
 ## Tid og sted
 
 **Tid:**\
