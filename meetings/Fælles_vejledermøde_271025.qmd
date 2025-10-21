@@ -1,0 +1,46 @@
+---
+title: "Fælles vejledermøde"
+format: html
+---
+
+# Dagsorden og beslutningsreferat
+
+## Tid og sted
+
+**Tid:**\
+**Sted:**
+
+## 🟡 Intention
+
+Formålet med mødet er...
+
+## 🟢 Desired Outcome
+
+Ved mødets afslutning har vi:
+
+\[x\] **Punkt_1**\
+
+\[x\] **Punkt_2**\
+
+\[x\] **Punkt_3**\
+
+\[x\] **Punkt_4**\
+
+\[x\] **Punkt_5**\
+
+\[x\] **Punkt_6**\
+
+## 📋 Dagsorden
+
+1.  **Punkt_1**
+
+2.  **Punkt_2**
+
+3.  **Punkt_3**
+
+4.  **Punkt_4**
+
+## 👤 Roles & Rules
+
+-   Jonas sender IDOART ud inden mødet.
+-   Efter mødet opdaterer Jonas dette dokument med et kort beslutningsreferat under punktet **Desired outcome** og oploader til mappen `/meeting` i GitHub-repositoriet: <https://github.com/Jonasmunkjensen/phd>
