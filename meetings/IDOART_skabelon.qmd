@@ -12,11 +12,11 @@ format: html
 **Tid:**\
 **Sted:**
 
-## 🟡 Intention
+## 🟡 Formål
 
-Formålet med mødet er...
+At
 
-## 🟢 Desired Outcome
+## 🟢 Hvad skal vi have opnået?
 
 Ved mødets afslutning har vi:
 
@@ -42,7 +42,7 @@ Ved mødets afslutning har vi:
 
 4.  **Punkt_4**
 
-## 👤 Roles & Rules
+## 👤 Roller og regler
 
 -   Jonas sender IDOART ud inden mødet.
 -   Efter mødet opdaterer Jonas dette dokument med et kort beslutningsreferat under punktet **Desired outcome** og oploader til mappen `/meeting` i GitHub-repositoriet: <https://github.com/Jonasmunkjensen/phd>

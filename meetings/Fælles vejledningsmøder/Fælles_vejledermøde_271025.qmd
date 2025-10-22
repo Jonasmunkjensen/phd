@@ -7,40 +7,45 @@ format: html
 
 ## Tid og sted
 
-**Tid:**\
-**Sted:**
+**Tid:** Mandag d. 27.10.2025 kl. 14:30 til 16:00\
+**Sted:** På Steno Aarhus: *Studiorummet* eller *Virtuelt*: [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWQ2YmZmZWQtMjgyZi00MjJkLWFmNjYtZmE2Y2ViY2E5NjRh%40thread.v2/0?context=%7b%22Tid%22%3a%225ae0adb3-8717-46ff-a4b9-d0edecfe40f3%22%2c%22Oid%22%3a%22491a79cd-b5ae-4936-92f9-e9bae0d99d50%22%7d)
 
-## 🟡 Intention
+## 🟡 Formål
 
-Formålet med mødet er...
+At skabe et fælles overblik over ph.d.-projektets status, plan og organisering. Vi skal sikre en fælles forståelse af tidslinje, roller, forfatterskab, mødefrekvens og brug af projektstyrringsværktøjer.
 
-## 🟢 Desired Outcome
+## 🟢 Hvad skal vi have opnået?
 
-Ved mødets afslutning har vi:
+Ved mødets afslutning:
 
-\[x\] **Punkt_1**\
+-   [ ] Er alle opdateret på projektets status\
 
-\[x\] **Punkt_2**\
+-   [ ] Er alle enige om deadlines for de enkelte papers og hvornår de respektive vejledere især inddrages\
 
-\[x\] **Punkt_3**\
+-   [ ] Er vi enige om forfatterrækken på de tre papers\
 
-\[x\] **Punkt_4**\
+-   [ ] Har vi aftalt procedurer for mødeindkaldelse og referater samt fundet dato for næste fælles vejledermøde\
 
-\[x\] **Punkt_5**\
+-   [ ] Er alle informeret om, hvilke valgfag jeg er tilmeldt, og hvilke overvejelser jeg gør mig i forhold til at undervise. Jeg har desuden fået vejledernes input til, hvor det kunne være relevant at undervise\
 
-\[x\] **Punkt_6**\
+-   [ ] Har jeg givet et kort indblik i, hvordan GitHub kan bruges til projektstyring, og vi har drøftet, om det skal anvendes fremadrettet\
 
 ## 📋 Dagsorden
 
-1.  **Punkt_1**
+1.  **Introduktion af personer (bordet rundt)**
 
-2.  **Punkt_2**
+2.  **Projektets tidslinje – hvornår er hvem mest involveret?**
 
-3.  **Punkt_3**
+3.  **Drøftelse om forfatterrækker**
 
-4.  **Punkt_4**
+4.  **Plan for fremtidige møder og mødefrekvens – hvem inviteres til hvad?**
 
-## 👤 Roles & Rules
+5.  **Undervisning – valg af kurser og drøftelse af undervisningsmuligheder)**
 
--   Jonas sender IDOART ud inden mødet.
--   Efter mødet opdaterer Jonas dette dokument med et kort beslutningsreferat under punktet **Desired outcome** og oploader til mappen `/meeting` i GitHub-repositoriet: <https://github.com/Jonasmunkjensen/phd>
+6.  **Github som projektværktøj?**
+
+## 👤 Roller og regler
+
+-   [x] Jonas sender dagsorden ud inden mødet.
+-   [ ] Jonas tidsstyrrer, faciliterer og præsenterer projektet
+-   [ ] Efter mødet opdaterer Jonas dette dokument med et kort beslutningsreferat under punktet **Desired outcome** og oploader til mappen `/meeting` i GitHub-repositoriet: <https://github.com/Jonasmunkjensen/phd>
