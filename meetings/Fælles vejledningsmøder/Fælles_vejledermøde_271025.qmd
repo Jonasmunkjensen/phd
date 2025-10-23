@@ -34,15 +34,17 @@ Ved mødets afslutning:
 
 1.  **Introduktion af personer (bordet rundt)**
 
-2.  **Projektets tidslinje – hvornår er hvem mest involveret?**
+2.  **Status på projektet**  
 
-3.  **Drøftelse om forfatterrækker**
+3.  **Projektets tidslinje – hvornår er hvem mest involveret?**
 
-4.  **Plan for fremtidige møder og mødefrekvens – hvem inviteres til hvad?**
+4.  **Drøftelse om forfatterrækker**
 
-5.  **Undervisning – valg af kurser og drøftelse af undervisningsmuligheder)**
+5.  **Plan for fremtidige møder og mødefrekvens – hvem inviteres til hvad?**
 
-6.  **Github som projektværktøj?**
+6.  **Undervisning – valg af kurser og drøftelse af undervisningsmuligheder**
+
+7.  **Github som projektværktøj?**
 
 ## 👤 Roller og regler
 
