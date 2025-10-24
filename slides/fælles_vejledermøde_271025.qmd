@@ -23,6 +23,7 @@ Lav overblik over rekrutteringen
 
 ## Phd-delen af RCT
 
+Plan for financiering 
 Fokus på aktivitetsmål
 Udfordringer med aktivitetsmålere
 Forklaring af analyseplan
@@ -30,23 +31,86 @@ De næste skridt -->
 
 ## To HiiT or not to HiiT
 
+Formål
+
 Status
 
-## Sta
+Proceslinje og metode
 
-## Running Code
+## Registerstudiet
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Formål
 
-```{r}
-1 + 1
-```
+Metode
 
-You can add options to executable code like this
+proceslinje
 
-```{r}
-#| echo: false
-2 * 2
-```
+## Forfatterrække paper 1 RCT
 
-The `echo: false` option disables the printing of code (only output is displayed).
+## Forfatterrække paper 2 kvalitativt
+
+## Forfatterrække paper 3 Register
+
+## Fremtidige møder
+
+Fælles vejedermøder [Bud: 6 måned]
+
+Annelli månedlige vejledermøder
+
+Sara månedlige møder - slette hvis de ikke er relevante (ugen inden)
+
+Hvem vil med til hvilke møder?
+
+## Phd kurser
+
+**2025 Q3: \[5,3 ECTS\];🟢 \[0,5 ECTS\]**
+
+🟡 Waitling list How to secure funding for your research \[0,8 ECTS\] 07 November 2025 08:00 - 15:30
+
+🟢 Registered Health - Welcome to the PhD study \[0,5 ECTS\] 13 November 2025 09:00 - 14:00
+
+🟡 Waitling list Epidemiology I - Basic Principles of Epidemiology - \[2,5 ECTS\] - Fall 18 November 2025 08:30 - 15:30 19 November 2025 08:30 - 15:30 20 November 2025 08:30 - 15:30 21 November 2025 08:30 - 15:30
+
+🟡 Waitling list How to manage your PhD project: Identifying opportunities and challenges – setting the compass \[2 ECTS\] 19 November 2025 09:00 - 17:00 20 November 2025 09:00 - 17:00 21 November 2025 09:00 - 12:30
+
+🟡 Waitling list Artificial intelligence for scientific writing \[1,5 ECTS\]
+
+## Phd kurser
+
+**2026 Q1 og Q2 \[9,7 ECTS\]**
+
+🟢 Registered Developing complex interventions in Public Health \[2,4 ECTS\] - Spring 07 January 2026 09:00 - 16:00 08 January 2026 09:00 - 16:00 09 January 2026 09:00 - 16:00
+
+🟢 Registered Basic Biostatistics - part 1: \[2,4 ECTS\] 14 January 2026 09:15 - 16:00 21 January 2026 09:15 - 16:00 28 January 2026 09:15 - 16:00 04 February 2026 09:15 - 16:00
+
+🟢 Registered Evaluating complex interventions in Public Health \[2,4\] 18 March 2026 09:00 - 16:00 19 March 2026 09:00 - 16:00 20 March 2026 09:00 - 16:00
+
+🟢 Registered Responsible Conduct of Research \[1 ECTS\] 09 April 2026 08:15 - 12:45 15 April 2026 08:15 - 12:45
+
+🟢 Registered Become a productive and joyful researcher \[1,5 ECST\] 01 June 2026 09:00 - 16:00 02 June 2026 09:00 - 16:00
+
+## Phd kuser
+
+**2026 Q3 og Q4 \[8,1 ECTS\] 🟢 \[5,5 ECTS\]**
+
+🟡 Waitling list The Cardiovascular Research Tool Box: From lab to clinical trial \[2,1 ECTS\] 14 September 2026 09:00 - 17:00 15 September 2026 08:15 - 16:00 16 September 2026 09:00 - 16:00
+
+🟡 Waitling list How to Communicate your PhD research \[1,5 ECTS\] 27 October 2026 09:00 - 15:00 29 October 2026 09:00 - 15:00
+
+🟢 Registered Introduction to register-based research \[3,5 ECTS\] 03 November 2026 09:00 - 15:30 04 November 2026 09:00 - 15:30 09 November 2026 09:00 - 15:30 10 November 2026 09:00 - 15:30 11 November 2026 09:00 - 15:30
+
+🟢 Registered Measuring socioeconomic position in epidemiological and clinical research \[ECTS 2\] 24 November 2026 09:00 - 15:30 25 November 2026 09:00 - 15:30 26 November 2026 09:00 - 15:30
+
+## Undervisning
+
+
+
+## Projektledelse og Github
+
+-   IDOART som mødeværktøj
+-   Præsentation af opsætning
+    -   [Gantt og TODO](https://github.com/users/Jonasmunkjensen/projects/2)
+    -   [Ph.d.-landing page](https://github.com/Jonasmunkjensen/phd)
+    -   [Paper 1](https://github.com/Jonasmunkjensen/paper1)
+    -   [Paper 2](https://github.com/Jonasmunkjensen/paper2)
+    -   [Paper 3](https://github.com/Jonasmunkjensen/paper3)
