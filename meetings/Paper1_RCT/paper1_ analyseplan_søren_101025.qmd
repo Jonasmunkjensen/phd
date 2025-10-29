@@ -1,0 +1,19 @@
+---
+title: "Foreløbig beslutning om acc databehandling"
+format: html
+---
+
+## Bud på analyseplan
+
+Primær analyse: 
+Estimere MVPA baseret på SENS algoritme
+
+Sekundær analyse: 
+Analyse af aktivitetstyper indenfor MVPA
+- Løb
+- Cykling
+- Gang
+- Etc
+
+Sensitivitetsanalyse: 
+Den gamle analyse som Jan benyttede (selvom den er valideret til måler placeret på hoften). Hvis den flugter med den primære analyse, kan vi måske være mere sikre på validiteten. 

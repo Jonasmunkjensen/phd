@@ -1,0 +1,135 @@
+---
+title: "elective courses"
+format: html
+---
+
+# List of elective courses
+
+During the course of your PhD study programme, you are required to complete PhD courses or similar subject elements totalling approximately 30 ECTS credits
+
+Kursusadmin: 
+Johanne: 9352-2205
+tilde: 2087-0344
+
+## Interessante kurser 2026 [22 ECTS]
+
+How to secure funding for your research [0,8 ECTS]
+22 April 2026 08:00 - 15:30
+
+Epidemiology II: [4,2 ECTS] - Fall
+
+Clinical Research [2,1 ECTS]
+08 June 2026 08:30 - 15:30
+09 June 2026 08:30 - 15:30
+10 June 2026 08:30 - 15:30
+
+Qualitative data analysis: Using NVivo: [4,8 ECTS] - Fall
+
+
+
+
+
+## 2025 Q3: [5,3 ECTS];🟢 [0,5 ECTS]
+
+🟡 Waitling list 
+How to secure funding for your research [0,8 ECTS]
+07 November 2025 08:00 - 15:30
+
+🟢 Registered
+Health - Welcome to the PhD study [0,5 ECTS]
+13 November 2025 09:00 - 14:00
+
+🟡 Waitling list 
+Epidemiology I - Basic Principles of Epidemiology - [2,5 ECTS] - Fall
+18 November 2025 08:30 - 15:30
+19 November 2025 08:30 - 15:30
+20 November 2025 08:30 - 15:30
+21 November 2025 08:30 - 15:30
+
+🟡 Waitling list 
+How to manage your PhD project: Identifying opportunities and challenges – setting the compass [2 ECTS]
+19 November 2025 09:00 - 17:00
+20 November 2025 09:00 - 17:00
+21 November 2025 09:00 - 12:30
+
+🟡 Waitling list 
+Artificial intelligence for scientific writing [1,5 ECTS]
+
+
+## 2026 Q1 og Q2 [9,7 ECTS]
+
+🟢 Registered
+Developing complex interventions in Public Health [2,4 ECTS] - Spring
+07 January 2026 09:00 - 16:00
+08 January 2026 09:00 - 16:00
+09 January 2026 09:00 - 16:00
+
+🟢 Registered
+Basic Biostatistics - part 1: [2,4 ECTS]
+14 January 2026 09:15 - 16:00
+21 January 2026 09:15 - 16:00
+28 January 2026 09:15 - 16:00
+04 February 2026 09:15 - 16:00
+
+🟢 Registered
+Evaluating complex interventions in Public Health [2,4]
+18 March 2026 09:00 - 16:00
+19 March 2026 09:00 - 16:00
+20 March 2026 09:00 - 16:00
+
+🟢 Registered
+Responsible Conduct of Research [1 ECTS]
+09 April 2026 08:15 - 12:45
+15 April 2026 08:15 - 12:45
+
+🟢 Registered
+Become a productive and joyful researcher [1,5 ECST]
+01 June 2026 09:00 - 16:00
+02 June 2026 09:00 - 16:00
+
+## 2026 Q3 og Q4 [8,1 ECTS]
+
+Artificial intelligence for scientific writing [1,5 ECTS]
+10 September 2026 08:30 - 12:30
+17 September 2026 08:30 - 12:30
+
+🟡 Waitling list 
+The Cardiovascular Research Tool Box: From lab to clinical trial [2,1 ECTS]
+14 September 2026 09:00 - 17:00
+15 September 2026 08:15 - 16:00
+16 September 2026 09:00 - 16:00
+
+🟡 Waitling list 
+How to Communicate your PhD research [1,5 ECTS]
+27 October 2026 09:00 - 15:00
+29 October 2026 09:00 - 15:00
+
+🟢 Registered
+Introduction to register-based research [3,5 ECTS]
+03 November 2026 09:00 - 15:30
+04 November 2026 09:00 - 15:30
+09 November 2026 09:00 - 15:30
+10 November 2026 09:00 - 15:30
+11 November 2026 09:00 - 15:30
+
+🟢 Registered
+Measuring socioeconomic position in epidemiological and clinical research [ECTS 2]
+24 November 2026 09:00 - 15:30
+25 November 2026 09:00 - 15:30
+26 November 2026 09:00 - 15:30
+
+
+
+
+
+Introduction to managing Research Data, FAIR principles, and Data search [0,3 ECTS]
+11 November 2025 09:00 - 12:00
+
+
+
+
+
+
+
+
+

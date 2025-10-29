@@ -1,0 +1,223 @@
+---
+title: "Fælles vejledermøde"
+author: "Jonas Munk Jensen"
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    from: markdown+emoji
+    footer: "Fælles vejledermøde, 27.10.2025"
+    width: 1400
+    height: 900
+exclude-from-listing: true
+---
+
+## Bordet rundt
+
+![](/slides/fælles-vejledermøde-2025/bordet.png)
+
+## Status på LIVING RCT
+
+::::: columns
+::: {.column width="80%"}
+![](/slides/fælles-vejledermøde-2025/RCT.png)
+:::
+
+::: {.column width="20%"}
+| Kommune  | Rekrutteret |
+|:---------|------------:|
+| Mål      |          48 |
+| Aarhus   |          46 |
+| Vejen    |          39 |
+| Syddjurs |          34 |
+| Roskilde |           8 |
+:::
+:::::
+
+## Plan for financiering
+
+-   **Afviste:**
+    -   DFF Forskningsprojekt1
+    -   DFF Ældreforskning
+    -   Region Midts forskningsfond
+-   **Plan:**
+    -   Trygfonden (marts)
+    -   DFF Klinisk forskning (start juni)
+    -   Helsefonden (august)
+
+## Fokus på aktivitetsmål
+
+-   **Primær outcome:** Aktivitetsniveau tid/dag i Moderat til hård fysisk aktivitet (MVPA).
+-   Aktivitetsniveau vs. aktivitetstyper
+
+**Analyseplan**
+
+1.  **Primær analyse:** Estimere MVPA baseret på aktivitetstyper\
+2.  **Estimere aktivitetstyper:** Ændring i aktivitetstyper\
+3.  **Sensitivitetsanalyse:** Den gamle metode vs. vores primære analyse
+
+-   SDU databehandleraftale
+
+## Resultater fra Aarhus
+
+### Kontrol
+
+![](/slides/fælles-vejledermøde-2025/control.png)
+
+## Resultater fra Aarhus
+
+### Intervention
+
+![](/slides/fælles-vejledermøde-2025/intervention.png)
+
+## To HiiT or not to HiiT
+
+**Formål:** Undersøge valget om deltagelse i HiiT og at vælge at møde op til træning
+
+![](/slides/fælles-vejledermøde-2025/paper2.png)
+
+## Registerstudiet
+
+![](/slides/fælles-vejledermøde-2025/him.png)
+
+## Del 1 – Kortlægning
+
+Hvor mange der har modtaget kommunale tilbud, baseret på ekstraundersøgelsen i efteråret 2024.
+
+![](/slides/fælles-vejledermøde-2025/him2.png)
+
+## Spørgsmål
+
+:::::: small
+::::: columns
+::: {.column width="50%"}
+| Har din behandler inden for de sidste 5 år henvist dig til en samtale/et forløb i kommunen? |
+|:-----------------------------------------------------------------------|
+| Hjælp til fysisk aktivitet og/eller træning |
+| Hjælp til at ændre spisevaner |
+| Hjælp til håndtering af diabetesbehandlingen |
+| Hjælp til håndtering af de mentale aspekter af diabetes |
+:::
+
+::: {.column width="50%"}
+| Svar                                            |
+|:------------------------------------------------|
+| Ja, og jeg tog imod tilbuddet                   |
+| Ja, men jeg tog ikke imod tilbuddet             |
+| Nej, men jeg ville gerne have tilbuddet         |
+| Nej, men jeg har selv henvendt mig til kommunen |
+| Nej, det har jeg ikke brug for                  |
+| Ikke relevant                                   |
+| Ved ikke                                        |
+:::
+:::::
+::::::
+
+## Del 2 – Sammenligninger
+
+**Formål:** At beskrive forskelle mellem deltagere og ikke-deltagere i kommunale forløb baseret på:
+
+**Variable fra Helbred i Midt (HiM):** BMI, rygning, aktivitetsniveau, WHO-5, SF-1, PAID, sundhedskompetence, sygdomsbyrde, diabetesvarighed, civilstand, personlighedstræk
+
+**Variable fra Danmarks Statistik:** HbA1c, kolesterol, komorbiditet, socioøkonomisk status
+
+## Del 3 – Bortfaldsanalyse
+
+**Formål:** At vurdere selektionsbias ved at sammenligne ekstraundersøgelsen med den samlede HiM-population.
+
+## Del 4 – Ændringer i fysisk aktivitet
+
+**Formål:** At analysere ændringer i selvrapporteret fysisk aktivitet fra 2020 til 2024 og sammenligne udviklingen mellem deltagere og ikke-deltagere i kommunale forløb.
+
+![](/slides/fælles-vejledermøde-2025/him3.png)
+
+## Spørgsmål
+
+| Fysisk aktivitet |
+|:-----------------------------------------------------------------------|
+| Træner hårdt og dyrker konkurrenceidræt regelmæssigt og flere gange om ugen |
+| Træner hårdt/dyrker konkurrenceidræt regelmæssigt flere gange ugentligt |
+| Motionsidræt/tungt havearbejde ≥ 4 timer om ugen |
+| Lettere motion (fx spadserer, cykler, lettere havearbejde) ≥ 4 timer om ugen |
+| Stillesiddende (fx læser, ser tv) |
+
+## Proceslinje
+
+![](/slides/fælles-vejledermøde-2025/proces.png)
+
+## Forfatterrække paper 1 — RCT
+
+-   Anette (sidste forfatter)
+-   Søren
+-   Annelli
+-   Henrik
+-   SDU
+
+## Forfatterrække paper 2 — kvalitativt
+
+-   Sara (sidste forfatter)
+-   Anette??
+
+## Forfatterrække paper 3 — Register
+
+-   Anette (sidste forfatter)
+-   Kasper
+-   Annelli
+
+## Fremtidige møder
+
+-   Fælles vejledermøder — forslag: hver 6. måned\
+-   Annelli: månedlige vejledermøder\
+-   Sara: månedlige møder — aflyse hvis ikke relevante (ugen inden)
+
+\[ \] Hvem vil deltage i hvilke møder?\
+\[ \] Næste fælles vejledermøde?
+
+## PhD kurser
+
+**2025 Q3: \[5,3 ECTS\]; \[0,5 ECTS\]**
+
+-   :yellow_circle: How to secure funding for your research \[0,8 ECTS\]\
+-   :green_circle: Registered Health - Welcome to the PhD study \[0,5 ECTS\]\
+-   :yellow_circle: Epidemiology I - Basic Principles of Epidemiology \[2,5 ECTS\]\
+-   :yellow_circle: How to manage your PhD project: Identifying opportunities and challenges – setting the compass \[2 ECTS\]\
+-   :yellow_circle: Artificial intelligence for scientific writing \[1,5 ECTS\]
+
+## PhD kurser
+
+**2026 Q1 og Q2 \[9,7 ECTS\]**
+
+-   :green_circle: Developing complex interventions in Public Health \[2,4 ECTS\]\
+-   :green_circle: Basic Biostatistics - part 1 \[2,4 ECTS\]\
+-   :green_circle: Evaluating complex interventions in Public Health \[2,4 ECTS\]\
+-   :green_circle: Responsible Conduct of Research \[1 ECTS\]\
+-   :green_circle: Become a productive and joyful researcher \[1,5 ECTS\]
+
+## PhD kurser
+
+**2026 Q3 og Q4 \[8,1 ECTS\] \[5,5 ECTS\]**
+
+-   :yellow_circle: The Cardiovascular Research Tool Box: From lab to clinical trial \[2,1 ECTS\]\
+-   :yellow_circle: How to Communicate your PhD research \[1,5 ECTS\]\
+-   :green_circle: Introduction to register-based research \[3,5 ECTS\]\
+-   :green_circle: Measuring socioeconomic position in epidemiological and clinical research \[2 ECTS\]
+
+## Undervisning
+
+Loni Kraus Ledderer (studieleder på Institut for Folkesundhed)
+
+John Brincks (Centerleder i Forskningscenter for aktivitet og forebyggelse - VIA)
+
+Andre gode kontakter?
+
+## Projektledelse og GitHub
+
+-   IDOART som mødeværktøj
+
+-   Præsentation af opsætning:
+
+    -   [Gantt og TODO](https://github.com/users/Jonasmunkjensen/projects/2)
+    -   [Ph.d.-landing page](https://github.com/Jonasmunkjensen/phd)
+    -   [Paper 1](https://github.com/Jonasmunkjensen/paper1)
+    -   [Paper 2](https://github.com/Jonasmunkjensen/paper2)
+    -   [Paper 3](https://github.com/Jonasmunkjensen/paper3)

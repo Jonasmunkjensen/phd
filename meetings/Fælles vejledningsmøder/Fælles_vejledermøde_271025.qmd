@@ -1,0 +1,130 @@
+---
+title: "Fælles vejledermøde"
+format: pdf
+---
+
+# Dagsorden og beslutningsreferat
+
+## Tid og sted
+
+**Tid:** Mandag d. 27.10.2025 kl. 14:30 til 16:00\
+**Sted:** På Steno Aarhus: *Studiorummet* eller *Virtuelt*: [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWQ2YmZmZWQtMjgyZi00MjJkLWFmNjYtZmE2Y2ViY2E5NjRh%40thread.v2/0?context=%7b%22Tid%22%3a%225ae0adb3-8717-46ff-a4b9-d0edecfe40f3%22%2c%22Oid%22%3a%22491a79cd-b5ae-4936-92f9-e9bae0d99d50%22%7d)
+
+## 🟡 Formål
+
+At skabe et fælles overblik over ph.d.-projektets status, plan og organisering. Vi skal sikre en fælles forståelse af tidslinje, roller, forfatterskab, mødefrekvens og brug af projektstyrringsværktøjer.
+
+## 🟢 Punkter og beslutningsreferat
+
+### Ved mødets afslutning
+
+-   [x] **Er alle opdateret på projektets status**
+
+#### Rekruttering
+
+Vi er enige om at forsøge at få en ekstra kommune med, som kan levere en kort version af *Lev Livet* inklusiv træning.\
+I Region Midt sendes en rekrutteringsmail ud til alle kommuner.\
+På Sjælland tager Søren kontakt til implementeringsafdelingen, som muligvis har overblik over relevante kommuner.\
+Jonas sender det materiale, der tidligere er brugt til rekruttering.
+
+#### Paper 2
+
+Vi drøfter muligheden for at lave et opfølgende interview et år efter for at belyse borgernes perspektiv på længere sigt – eventuelt med inddragelse af en specialestuderende.\
+Derudover drøftes det, om Jonas skal gennemføre alle interviews selv, og hvordan han bedst håndterer sin egen forforståelse.\
+Jonas og Sara arbejder videre med dette på næste artikelmøde.
+
+#### Paper 3
+
+Del fire, som omhandler ændringer i fysisk aktivitet, er måske for tynd, da vi ikke præcist kan fastslå, hvornår borgerne har deltaget.\
+Det kan derfor have fundet sted allerede inden besvarelsen af første spørgeskema.
+
+#### Funding
+
+Anette sender navn og tidligere ansøgning til den fond, vi ikke kunne huske navnet på.
+
+------------------------------------------------------------------------
+
+-   [x] **Er alle enige om deadlines for de enkelte papers, og hvornår de respektive vejledere især inddrages**
+
+Timelinen vurderes som urealistisk og forlænges for alle papers.
+
+------------------------------------------------------------------------
+
+-   [x] **Er vi enige om forfatterrækken på de tre papers**
+
+#### Paper 1
+
+*Jonas, Annelli, Anette, Henrik, Peter Lund Kristensen (SDU), Søren*\
+Det vurderes, at SDU har bidraget tilstrækkeligt til at indgå i forfatterkredsen.
+
+#### Paper 2
+
+*Jonas, Anette, Sara*
+
+#### Paper 3
+
+*Jonas, Søren, Kasper, Annelli, Anette*\
+Annelli vurderer løbende, om hun ønsker forfatterskab.
+
+------------------------------------------------------------------------
+
+-   [x] **Har vi aftalt procedurer for mødeindkaldelse og referater samt fundet dato for næste fælles vejledermøde**
+
+#### Artiklemøder
+
+Der bookes månedlige møder for hver artikel.\
+Hvis mødet ikke er relevant, slettes det en uge i forvejen.\
+Dagsorden udsendes inden mødet.\
+Anette inviteres med til *Paper 2*-møder.
+
+#### Fælles vejledning
+
+Planlægges hver fjerde måned det første år, hvorefter frekvensen revurderes.\
+Næste møde planlægges til januar 2026.\
+**OBS:** Teams fungerer ikke optimalt til dette forum – vi prøver med Pexip næste gang.
+
+------------------------------------------------------------------------
+
+-   [x] **Er alle informeret om, hvilke valgfag jeg er tilmeldt, og hvilke overvejelser jeg gør mig i forhold til at undervise – samt har fået input til relevante muligheder**
+
+Der er bred opbakning til planen.\
+Det kan desuden være relevant at tage kontakt til studielederen på Institut for Idræt.
+
+#### Specialevejledning
+
+Jonas undersøger, om bivejledning tæller som undervisningserfaring, og om dele af hans data kan bruges til specialer.
+
+#### Konferencer
+
+Det aftales, at målet er at deltage i to internationale konferencer – gerne én med fokus på diabetes og én med fokus på træning.\
+Derudover kan deltagelse i *Folkesundhedsdage* være relevant.
+
+------------------------------------------------------------------------
+
+-   [x] **Har jeg givet et kort indblik i, hvordan GitHub kan bruges til projektstyring, og drøftet, om det skal anvendes fremadrettet**
+
+Der er positiv stemning omkring brugen af GitHub.\
+Jonas udarbejder en kort vejledning til, hvordan man kan kommentere og bidrage via GitHub.\
+Vi evaluerer løbende, i hvilket omfang GitHub skal anvendes som aktivt arbejdsredskab eller primært som platform til opbevaring af dokumenter og overblik.
+
+## 📋 Dagsorden
+
+1.  **Introduktion af personer (bordet rundt)**
+
+2.  **Status på projektet**
+
+3.  **Projektets tidslinje – hvornår er hvem mest involveret?**
+
+4.  **Drøftelse om forfatterrækker**
+
+5.  **Plan for fremtidige møder og mødefrekvens – hvem inviteres til hvad?**
+
+6.  **Undervisning – valg af kurser og drøftelse af undervisningsmuligheder**
+
+7.  **Github som projektværktøj?**
+
+## 👤 Roller og regler
+
+-   [x] Jonas sender dagsorden ud inden mødet.
+-   [x] Jonas tidsstyrrer, faciliterer og præsenterer projektet
+-   [x] Efter mødet opdaterer Jonas dette dokument med et kort beslutningsreferat under punktet **Desired outcome** og oploader til mappen `/meeting` i GitHub-repositoriet: <https://github.com/Jonasmunkjensen/phd>

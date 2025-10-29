@@ -1,0 +1,85 @@
+---
+title: "Vejledermøde – Annelli"
+date: "2025-10-14"
+format: html
+---
+
+# Dagsorden og beslutningsreferat
+
+## Tid og sted
+
+**Tid:** 60 min\
+**Sted:** Online
+
+## 🟡 Intention
+
+Formålet med mødet er at give en samlet status på ph.d.-projektet og blive enige omkring projektledelsen, fondsansøgningerne, analyseplan for Paper 1 og det fælles vejledermøde.
+
+## 🟢 Desired Outcome
+
+Ved mødets afslutning har vi:
+
+\[x\] **En fælles opdateret forståelse af projektets status\
+**Annelli er opdateret på projektet
+
+\[x\] **Aftalt prioritering af fondsansøgninger og omfang af arbejdet\
+**Ansøgning til Region Midtjylland er blevet sorteret fra inden den er blevet læst. Derfor søges den ikke igen. Vi aftaler at jeg nedprioriterer fondsansøgningerne for en tid. Der skal søges 3 fonde det kommende år: - Trygfonden (marts) - Jeg ringer og forhører mig om projektet flugter med deres fokus i år - DFF klinisk forskning (start juni) - Jeg holder løbende øje med call. Obs på minimum beløb på ca. 2 millioner. Vi må finde flere poster at skrive på. - Helsefonden (august) - 300.000 kr.
+
+\[x\] **Truffet beslutning om brug af GitHub som projektstyringsværktøj**\
+Annelli synes det fungerer godt. Jeg afholder det fælles vejledermøde vha Github og slutter af med at snakke om Github.
+
+\[x\] **Enighed om den overordnede analyseplan for Paper 1**\
+Annelli er enig i analyseplanen som jeg har drøftet med Søren. Se paper1_analyseplan_søren-101025
+
+\[x\] **Fundet en relevant kontaktperson, som kan hjælpe med at finde undervisningsmuligheder** Annelli har sendt kontaktoplysning på: Loni (studievejleder på IFS), John Brincks (VIA), Se mail d. 14.10.25 Alternativt har Jonas kontakt til fysioterapeut fra VIA gennem NABRO.
+
+\[x\] **Fået Annellis input til dagsordenen for det fælles vejledermøde den 27. oktober**\
+Annelli har givet besyv på dagsorden. Se punkt 6 nedenfor
+
+## 📋 Agenda
+
+1.  **Projektstyring og GitHub**
+
+    -   IDOART som mødeværktøj
+    -   Præsentation af opsætning
+        -   [Gantt og TODO](https://github.com/users/Jonasmunkjensen/projects/2)
+        -   [Ph.d.-landing page](https://github.com/Jonasmunkjensen/phd)
+        -   [Paper 1](https://github.com/Jonasmunkjensen/paper1)
+        -   [Paper 2](https://github.com/Jonasmunkjensen/paper2)
+        -   [Paper 3](https://github.com/Jonasmunkjensen/paper3)
+
+2.  **Fondsansøgninger**
+
+    -   Status på fondsansøgninger (foreløbige afslag)
+
+    -   Fremadrettet fondsstrategi
+
+3.  **Paper 1 – Analyseplan**
+
+    -   Overvejelser
+
+    -   Input fra Annelli til metode
+
+4.  **Valgfag og undervisning**
+
+    -   Valgfag (https://github.com/Jonasmunkjensen/phd/blob/main/docs/elective_courses.qmd)
+
+    -   Idégenerering: Hvem kan vi kontakte for at finde relevante kurser? Jeanette Reffstrup Christensen (sundhedsfaglige kandidat): https://www.au.dk/jrc\@ph.au.dk/
+
+    **Fælles vejledermøde 27. oktober**
+
+    -   Udkast til dagsorden
+        -   Introduktion af personer (bordet rundt)
+        -   Gennemgang af de 3 forskellige papers og status på projektet
+        -   Tidslinje og hvornår er hvem mest på.
+        -   Forfatterrække - vores forslag RCT: Anette Sidste forfatter (fordi projektet skal udgå fra STENO), Søren anden forfatter, Henrik, Annelli, SDU Kvalitativt studie: Sara (sidsteforfatter), Anette Register: Anette (sidsteforfatter), Kasper, Annelli, Anden yngre forsker??
+        -   Fremtidige møder, mødefrekvens. Hvem vil inviteres til hvilke møder?
+        -   Undervisning (overvejeler og input fra vejledere)
+        -   Github som projektværktøj
+        -   andet?
+
+## 👤 Roles & Rules
+
+-   Jonas sender IDOART ud inden mødet.
+-   Efter mødet lægger Jonas et kort beslutningsreferat under `/meeting` i GitHub-repositoriet:\
+    <https://github.com/Jonasmunkjensen/phd>

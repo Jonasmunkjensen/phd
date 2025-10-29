@@ -1,0 +1,21 @@
+---
+title: "Abstract_phd_day_2026"
+format: docx
+---
+
+**Self-selected keywords**:
+Type 2-Diabetes Diabetes 
+Self-Management Programs 
+Exercise
+
+**Title of abstract** 
+Optimizing Self-Management in Type 2 Diabetes: The Role of High Intensity Interval Training in Enhancing Health Outcomes
+
+**Co-authors' name** 
+A Sandbæk1 & 2, A Andersen1 & 2, S Skou2, S Offersen1
+
+**Co-authors' affiliations** 
+1 Unit of Intergrated Care and Prevention, Steno Diabetes Center Aarhus, 2 Department of Public Health - Institute of General Medical Practice, Aarhus University, 3 Department of Sports Science and Clinical Biomechanics, University of Southern Denmark
+
+**ABSTRACT** 
+Lifestyle interventions are central to type 2 diabetes (T2D) management, and Danish municipalities currently deliver diabetes self-management programs (DSMPs). The upcoming healthcare reform will transfer this responsibility to regional authorities, aiming to enhance standardization. However, DSMP content and effectiveness vary substantially, and evidence guiding best practice remains limited. This PhD project comprises three studies designed to optimize exercise-based DSMPs for individuals with T2D. Study 1, a pragmatic randomized controlled trial, will compare two DSMPs (with and without high-intensity interval training (HIIT)) in terms of objectively measured physical activity, cardiometabolic risk factors, and physical function. Study 2, a qualitative study, will explore the decision-making processes of individuals with T2D when choosing whether to engage in HIIT as part of a DSMP. Study 3, a register-based descriptive study, will investigate the availability and utilization of municipal health services among people with T2D, describe differences between participants and non-participants, assess potential selection bias, and analyze changes in self-reported physical activity over time using data from the Health in Central Denmark cohort. Together, these studies will generate new insights into participation patterns, behavioral mechanisms, and physiological outcomes related to exercise-based DSMPs. Findings will inform the design of more effective and appealing interventions, supporting ongoing efforts to standardize and strengthen preventive diabetes care in Denmark.
