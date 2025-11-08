@@ -21,8 +21,6 @@ En **branch** er en kopi af hoveddokumentet (MAIN), hvor du kan arbejde frit ude
 1. Jonas opretter en ny branch i **RStudio**.
 2. Navngiv branchen tydeligt – fx `paper_2_patient_information`.
 
-*(Indsæt screenshot fra RStudio med oprettelse af branch)*
-
 ---
 
 # 👥 Tilføj samarbejdspartnere
@@ -32,9 +30,6 @@ For at vejledere kan bidrage, skal de være tilknyttet som samarbejdspartnere p�
 **Jonas gør følgende:**
 1. Gå til **Settings → Collaborators**.
 2. Tilføj de personer, der skal arbejde på det specifikke paper.
-
-*(Indsæt evt. screenshot af collaborators-siden)*
-
 
 ---
 
@@ -50,8 +45,7 @@ En **Pull Request** fungerer som et fælles arbejdsrum, hvor man kan:
 2. Under **Reviewer** vælges den person, som skal give input.  
 3. Skriv en kort tekst i feltet, der forklarer, hvad der arbejdes på (fx *Feedback på indhold i patientinformation*).
 
-*(Indsæt screenshot af Pull Request)*
-
+![](/docs/github/pr1.png)
 
 ---
 
@@ -61,20 +55,30 @@ Når Jonas har sendt Pull Request’en, får vejlederen en notifikation på mail
 
 **Sådan giver du feedback:**
 1. Gå til **Notifications** i GitHub, og klik på den ulæste besked.  
-   *(Indsæt screenshot)*  
+
+![](/docs/github/pr2.png)
+
 2. Under **Conversation** kan du følge ændringer og kommentarer over tid.  
-   *(Indsæt screenshot)*  
+
 3. Under **Files changed** kan du:
-   - trykke på **+** for at tilføje kommentarer til specifikke tekstområder  
+   - trykke på **+** for at tilføje kommentarer til specifikke tekstområder
+   
+![](/docs/github/pr3.png)
+
    - eller bruge ikonet for at **foreslå konkrete ændringer** direkte i teksten  
-   *(Indsæt screenshots for begge funktioner)*  
+ 
+ ![](/docs/github/pr4.png) 
 
 Når du er færdig:
-1. Tryk **Finish your review**.  
-2. Skriv en kort samlet kommentar (fx opsummering af de vigtigste pointer).  
-3. Tryk **Submit review** for at sende din feedback.  
-*(Indsæt screenshots af disse trin)*
+1. Tryk **Finish your review**
 
+![](/docs/github/pr5.png) 
+
+2. Skriv en kort samlet kommentar (fx opsummering af de vigtigste pointer).
+
+3. Tryk **Submit review** for at sende din feedback.  
+
+![](/docs/github/pr6.png) 
 
 ---
 
