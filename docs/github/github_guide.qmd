@@ -19,7 +19,7 @@ En **branch** er en kopi af hoveddokumentet (MAIN), hvor du kan arbejde frit ude
 
 **Sådan gør du:**
 1. Jonas opretter en ny branch i **RStudio**.
-2. Navngiv branchen tydeligt – fx `paper_2_patient_information`.
+2. Navngiv branchen tydeligt – fx `github_guide`.
 
 ---
 
@@ -86,8 +86,6 @@ Når du er færdig:
 
 Når Jonas har gennemgået og implementeret rettelserne, **merges branchen** med **MAIN**.  
 Det betyder, at alle ændringer nu bliver en del af hoveddokumentet.
-
-*(Indsæt screenshot af merge-processen)*
 
 ---
 
