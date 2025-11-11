@@ -1,0 +1,231 @@
+---
+title: "preparatory-tasks"
+format: html
+---
+
+## TODO
+
+- [x] Stakeholder Analysis – Mapping Your Research Environment 
+- [ ] Your PhD as a Business Model – Applying the PhD Model Canvas 
+- [ ] Structuring Your PhD – Creating a Work Breakdown Structure 
+- [ ] **Interview with your Supervisor and a Key Stakeholder – Understanding the PhD Journey from Different Perspectives** 
+- [ ] Understanding the Rules – Doctoral Regulations and Unwritten Expectations 
+- [ ] Risk and Concern Assessment – Planning for the Unexpected 
+- [ ] Thinking Beyond the PhD – Exploring Career Pathways 
+- [x] **Understanding Working Styles – You and Your Supervisor** 
+- [ ] The Five Drivers – Understanding Your Inner Drivers in Research and Collaboration 
+- [ ] Leisure–Work Balance Analysis – Designing a Sustainable PhD Life 
+- [ ] Reflecting on Your Motivation – Why You Started and What Keeps You Going 
+- [ ] **Time and Task Management – Building Awareness and Creating Structur**
+
+------------------------------------------------------------------------
+
+## Stakeholder Analysis – Mapping Your Research Environment
+
+### Identify you stakeholders: 
+
+### Stakeholder Analysis
+
+| **Stakeholder** | **Role in Research / Academic Environment** | **Interests, Expectations, or Concerns** | **Influence / Power** | **Interaction (Frequency & Mode)** |
+|------------------|---------------------------------------------|------------------------------------------|-----------------------|------------------------------------|
+| **SDCA** | Project owner and main supervisor. Provides funding and most of my salary. | Interested in timely progress, scientific quality, and successful implementation of the RCT. Concerned about efficient use of resources. | **Very high** – can influence how much time i spend on external funding. Influence the amount of supervision I get. Also affects data collection for study 3 .Also influence my career after the Phd. | Monthly meeting for each paper, email correspondence, and status ad hoc. |
+| **SDCO** | Creator of the Diabetes Self-Management Program (DSMP). Co-designer of the RCT, involved in recruitment and grant writing. | Interested in successful testing and validation of the DSMP. Concerned about fidelity of implementation and research rigor. | **Low** – no reason for concern. | Email updates, and occasional status meeting. |
+| **SDCS** | Provides a municipality for the RCT and has already implemented the concept in most municipalities. | Interested in feasibility, municipal adoption, and practical relevance of results. Concerned about a negative or unconclusive outcome. | **Medium** – may affects the acces to one trial site. | Occasional meetings and email communication. |
+| **PROGrez** | Supervisor focusing on the exercise component of the study. | Interested in scientifically sound exercise intervention, data collection, and analysis. Concerned about adherence and outcome measurement. | **Medium** – supervision and networking. | Visits every 6th month and monthly virtual meetings. |
+| **Institute of Public Health** | Formal employer providing institutional support, facilities, and administrative oversight. | Interested in research output and institutional reputation. Concerned about compliance and ethical conduct. | **Medium** – affects administrative processes, ethics, and career development. | Periodic reporting, institutional meetings, and email communication. |
+| **Baker & Heart / Deakin University** | Host institutions for research visit. | Interested in collaboration, knowledge exchange, and perhaps co-authorship. Concerned with productive use of research visit. | **Low** – provides collaboration opportunities but limited direct influence. | Short-term intensive collaboration during visit; email before and after visit. |
+| **Trial municipalities (Aarhus, Syddjurs, Vejen, Roskilde)** | Sites for RCT implementation and recruitment. | Interested in citizen benefits, feasibility, and minimal disruption. Concerned about staff workload and study compliance. | **Medium** – essential for recruitment and intervention delivery. | Regular check-ins, site visits, and phone/email communication depending on study phase. |
+| **University og Southern Denmark)** | support and supervision concerning accelerometer data. | Interested in research output and perhaps co-authorship. Concerned about methological rigor. | **Medium** – essential for data management and analysis | Need data management agreement, regular check-ins, site visits, and phone/email communication depending on study phase. |
+
+### Power–Interest Matrix
+
+The Power–Interest Matrix maps stakeholders according to their level of **influence (power)** over the project and their **interest** in its progress and outcomes.  
+Stakeholders in the upper-right quadrant (high power / high interest) should be managed closely, while those with lower power or interest require proportionally less engagement.
+
+```{r}
+#| label: power-interest-matrix
+#| fig-cap: "Power–Interest Matrix for key stakeholders in the PhD project."
+#| warning: false
+#| message: false
+#| fig-width: 8
+#| fig-height: 6
+
+library(ggplot2)
+library(ggrepel)
+library(dplyr)
+
+# Define stakeholders and their approximate power/interest levels
+stakeholders <- tibble::tribble(
+  ~Stakeholder, ~Power, ~Interest,
+  "SDCA", "High", "High",
+  "SDCO", "Low", "Medium",
+  "SDCS", "Medium", "High",
+  "PROGrez", "Medium", "High",
+  "Institute of Public Health", "Medium", "Medium",
+  "Baker & Heart / Deakin University", "Low", "Medium",
+  "Trial municipalities", "Medium", "High",
+  "University of Southern Denmark", "Medium", "High"
+)
+
+# Convert to numeric scales for plotting
+power_levels <- c("Low" = 1, "Medium" = 2, "High" = 3)
+interest_levels <- c("Low" = 1, "Medium" = 2, "High" = 3)
+
+stakeholders <- stakeholders %>%
+  mutate(
+    Power_num = power_levels[Power],
+    Interest_num = interest_levels[Interest]
+  )
+
+# Add small jitter to prevent text overlap
+set.seed(123)
+stakeholders <- stakeholders %>%
+  mutate(
+    Power_jit = Power_num + runif(n(), -0.1, 0.1),
+    Interest_jit = Interest_num + runif(n(), -0.1, 0.1)
+  )
+
+# Define quadrant colors
+bg_colors <- data.frame(
+  xmin = rep(c(0.5, 1.5, 2.5), each = 3),
+  xmax = rep(c(1.5, 2.5, 3.5), each = 3),
+  ymin = rep(c(0.5, 1.5, 2.5), times = 3),
+  ymax = rep(c(1.5, 2.5, 3.5), times = 3),
+  fill = rep(c("#f2f2f2", "#e8f5e9", "#dcedc8",
+               "#fff9c4", "#ffe0b2", "#ffccbc",
+               "#f2f2f2", "#e8f5e9", "#dcedc8"), 1)
+)
+
+# Plot
+ggplot() +
+  geom_rect(data = bg_colors, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = fill), color = "grey80") +
+  scale_fill_identity() +
+  geom_point(data = stakeholders, aes(x = Interest_jit, y = Power_jit), size = 3, color = "#1b5e20") +
+  geom_label_repel(
+    data = stakeholders,
+    aes(x = Interest_jit, y = Power_jit, label = Stakeholder),
+    size = 3.5,
+    color = "black",
+    fill = "white",
+    box.padding = 0.3,
+    label.size = 0.2,
+    segment.color = "grey60",
+    max.overlaps = Inf
+  ) +
+  scale_x_continuous(breaks = 1:3, labels = c("Low", "Medium", "High"), limits = c(0.5, 3.5)) +
+  scale_y_continuous(breaks = 1:3, labels = c("Low", "Medium", "High"), limits = c(0.5, 3.5)) +
+  labs(
+    x = "Interest",
+    y = "Power",
+    title = "Power–Interest Matrix for Key Stakeholders"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid = element_blank(),
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14)
+  )
+```
+
+------------------------------------------------------------------------
+
+## Your PhD as a Business Model – Applying the PhD Model Canvas
+
+------------------------------------------------------------------------
+
+## Structuring Your PhD – Creating a Work Breakdown Structure
+
+------------------------------------------------------------------------
+
+## Interview with your Supervisor and a Key Stakeholder – Understanding the PhD Journey from Different Perspectives
+
+------------------------------------------------------------------------
+
+## Understanding the Rules – Doctoral Regulations and Unwritten Expectations
+
+------------------------------------------------------------------------
+
+## Risk and Concern Assessment – Planning for the Unexpected
+
+------------------------------------------------------------------------
+
+## Thinking Beyond the PhD – Exploring Career Pathways
+
+------------------------------------------------------------------------
+
+## Understanding Working Styles – You and Your Supervisor
+
+------------------------------------------------------------------------
+
+### Big five results
+
+<table>
+  <tr>
+    <th>Jonas</th>
+    <th>Supervisor</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="/courses/how_to_manage/jex.png" width="300"><br>
+      <img src="/courses/how_to_manage/jag.png" width="300"><br>
+      <img src="/courses/how_to_manage/jco.png" width="300"><br>
+      <img src="/courses/how_to_manage/jem.png" width="300"><br>
+      <img src="/courses/how_to_manage/jop.png" width="300">
+    </td>
+    <td>
+      <img src="/courses/how_to_manage/aex.png" width="300"><br>
+      <img src="/courses/how_to_manage/aag.png" width="300"><br>
+      <img src="/courses/how_to_manage/aco.png" width="300"><br>
+      <img src="/courses/how_to_manage/amo.png" width="300"><br>
+      <img src="/courses/how_to_manage/aop.png" width="300">
+    </td>
+  </tr>
+</table>
+
+### Interaction of Jonas’ and Supervisor’s Big Five Profiles in Collaboration
+
+| **Dimension** | **Sub-Facet** | **Combined Strengths / Synergies** | **Possible Weaknesses / Tensions** |
+|:---------------|:--------------|:----------------------------------|:----------------------------------|
+| **Extraversion** (J 85 / S 97) | **Sociability** (J 81 / S 99) | Both thrive in interactive environments; meetings will feel lively and motivating; quick rapport with partners and stakeholders. | Both may prefer real-time discussion over reflective analysis. May exhaust introverted collaborators. |
+|  | **Assertiveness** (J 84 / S 84) | Equal assertiveness prevents dominance; both comfortable with direct decision-making. | |
+|  | **Energy** (J 76 / S 91) | Shared high energy means high momentum; ideal for tight deadlines or outreach. | Supervisor’s higher energy pace may set expectations that are hard to sustain; you might feel pressured to match intensity. |
+| **Agreeableness** (J 92 / S 63) | **Compassion** (J 63 / S 91) | Supervisor’s empathy plus your respectful diplomacy could create a supportive environment for students or collaborators. | You value harmony and your supervisor may challenge others directly; your instinct to smooth over conflict could clash with their frankness. |
+|  | **Respectfulness** (J 95 / S 55) | You model politeness and procedural fairness, useful when representing the group externally. | Supervisor may come across as blunt or dismissive, which can unsettle you; you may interpret critique personally. Remember her reaction is often due to lack of time |
+|  | **Trust** (J 92 / S 26) | Your trust helps sustain a positive tone, especially early in collaboration. | Large trust gap: supervisor will double-check data or motives; you may perceive this as mistrust, while they see it as due diligence. You’ll need explicit transparency. |
+| **Conscientiousness** (J 88 / S 58) | **Organization** (J 76 / S 5) | You can anchor the team with structure, timelines, and document control. | Supervisor’s disorganization may frustrate. Balance structure with flexibility. |
+|  | **Productivity** (J 69 / S 98) | Supervisor’s output drive complements your systematic approach; together can deliver both quality and volume. | Mismatch of tempo: supervisor pushes rapid delivery; you prefer measured accuracy — potential stress at hand-in times. |
+|  | **Responsibility** (J 97 / S 58) | You can ensure commitments are met; supervisor’s flexibility allows adaptation to changing priorities. | You may shoulder too much responsibility while supervisor moves on |
+| **Emotional Stability** (J 96 / S 95) | **Relaxedness** (J 99 / S 91) | Both calm under stress; crises handled with composure and humor. | Emotional flatness may reduce urgency or empathy signals — others may not perceive concern when problems arise. |
+|  | **Resiliency** (J 92 / S 92) | Shared ability to recover quickly from setbacks; highly adaptive partnership. | May gloss over emotional reactions in others. |
+|  | **Stability** (J 83 / S 93) | Predictable, steady collaboration; good emotional reliability. | Slight imbalance — supervisor’s extreme steadiness may feel detached; your minor variability adds warmth but may go unnoticed. |
+| **Openness** (J 70 / S 65) | **Intellect** (J 68 / S 54) |  |  |
+|  | **Aestheticism** (J 66 / S 55) | You add attention to presentation and nuance; can refine supervisor’s fast drafts into polished outputs. | Supervisor may undervalue aesthetics or phrasing; you may over-invest time perfecting form over speed. |
+|  | **Creativity** (J 66 / S 77) | Supervisor’s creativity sparks ideas; your moderate creativity plus structure ensures follow-through. | If supervisor jumps to new ideas before closure, your conscientious side may feel destabilized. |
+
+### Strategies
+
+First of all - we seem to have a good balance between quality assurance and momentum. We are both extraverted, emotional stable and open. My supervisors mistrust is not aimed at me, but rather others hidden agendas and is often correct. 
+
+- Project management in Github to keep everyone informed
+- I make the management visible but brief and action-oriented
+- Write summery after every meeting with key point, decisions, and tasks
+- I take the lead on making timelines, task breakdown and documentation. I send them to my supervisor early in the process to get her creativity in early
+- Regarding manuscrips. I draf detailed outlines and methods; my supervisor can push for strong discussion and novel framing. Review rounds should alternate between “precision” and “creativity.”
+
+------------------------------------------------------------------------
+
+## The Five Drivers – Understanding Your Inner Drivers in Research and Collaboration
+
+------------------------------------------------------------------------
+
+## Leisure–Work Balance Analysis – Designing a Sustainable PhD Life
+
+------------------------------------------------------------------------
+
+## Reflecting on Your Motivation – Why You Started and What Keeps You Going
+
+------------------------------------------------------------------------
+
+## Time and Task Management – Building Awareness and Creating Structur
+
+
