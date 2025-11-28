@@ -1,0 +1,128 @@
+---
+title: "PROgrez"
+subtitle: Mig og LIVING
+author: "Jonas Munk Jensen"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    from: markdown+emoji
+    footer: "PROgrez"
+    width: 1400
+    height: 900
+exclude-from-listing: true
+---
+
+## Kort om mig
+
+![](/slides/PROgrez/family.png)
+
+## CV
+
+- **2014** – Bachelor i fysioterapi, Professionshøjskolen Metropol  
+- **2014–2017** – Fysioterapeut, Frederiksberg Sundhedscenter  
+- **2015–2016** – Frivillig sundhedskonsulent, Raindrop Foundation, Thailand  
+- **2019** – Kandidat i sundhedsvidenskab, Københavns Universitet  
+  - Speciale: Femårig opfølgning efter hjemmetræningsintervention for børn med CP
+- **2019** – Institut for Neurovidenskab, KU
+- **2020–2025** – Forskningsassistent, Steno Diabetes Center Aarhus  
+
+## Optakt til LIVING
+
+- Kortlægning af kommunale tilbud: Stor variation og ingen evalueringer
+- Workshops og temadage med kommunerne
+- Henvisninger fra AP - hvad er effekten?
+- Afklaring af spørgsmålene: Hvad er effekten af tilbudene, hvor meget skal vi støtte borgerne – og hvor vigtig er træning?
+
+![](/slides/PROgrez/ws.png)
+
+## Udrulning af Lev Livet
+
+![](/slides/PROgrez/LL.png)
+
+## LIVING RCT
+
+![](/slides/PROgrez/RCT.png)
+
+## Cost-effectiveness
+
+**Formål:** At vurdere omkostningseffektiviteten af de tre interventioner med stigende intensitet.
+
+![](/slides/PROgrez/cost.png)
+
+## Implementering af Lev Livet og træning i kommunerne – en proces­evaluering
+
+::::: columns
+::: {.column width="70%"}
+**Formål:** At undersøge, hvordan medarbejdere i kommunerne har oplevet implementeringen af *Lev Livet* i forhold til:
+- kommunal organisering og eksisterende arbejdsgange og  
+- *Lev Livet* som et specifikt koncept.  
+- Personalets oplevelser med at deltage i forskning.
+:::
+
+::: {.column width="30%"}
+![](/slides/PROgrez/julie.png)
+:::
+:::::
+
+## To HiiT or not to HiiT?
+
+**Formål:** At udforske beslutningsprocesserne hos personer med type 2-diabetes, mens de løbende vælger, om de vil deltage i HIIT som en del af et DSMP-forløb.
+
+::::: columns
+::: {.column width="70%"}
+- Hvad er på spil for borgerne, når de skal beslutte, om de vil deltage i HIIT – og hvad påvirker deres valg om at møde op eller springe træningen over?  
+- Hvilke bekymringer og oplevede gevinster former beslutningsprocessen?  
+- Hvordan påvirker sundhedsprofessionelle, familie mm. deres valg?
+- Hvordan ser det ud et år efter?
+:::
+
+::: {.column width="30%"}
+![](/slides/PROgrez/hiit.jpg)
+:::
+:::::
+
+## Brug af kommunale tilbud – et registerbaseret studie
+
+- *Helbred i Midt*-kohorten (ca. 40.000 personer, 18.000 med type 2-diabetes)
+
+![](/slides/PROgrez/him.png)
+
+## Del 1 – Kortlægning
+- Hvor mange der har modtaget kommunale tilbud, baseret på ekstraundersøgelsen i efteråret 2024.
+
+![](/slides/PROgrez/him.png)
+
+## Del 2 – Sammenligninger
+
+**Formål:** At beskrive forskelle mellem deltagere og ikke-deltagere i kommunale forløb baseret på:
+
+**Variable fra Helbred i Midt (HiM):** BMI, rygning, aktivitetsniveau, WHO-5, SF-1, PAID, sundhedskompetence, sygdomsbyrde, diabetesvarighed, civilstand, personlighedstræk
+
+**Variable fra Danmarks Statistik:** HbA1c, kolesterol, komorbiditet, socioøkonomisk status
+
+## Del 3 – Bortfaldsanalyse
+
+**Formål:** At vurdere selektionsbias ved at sammenligne ekstraundersøgelsen med den samlede HiM-population.
+
+![](/slides/PROgrez/him.png)
+
+## Del 4 – Ændringer i fysisk aktivitet
+
+**Formål:** At analysere ændringer i selvrapporteret fysisk aktivitet fra 2020 til 2024 og sammenligne udviklingen mellem deltagere og ikke-deltagere i kommunale forløb.
+
+![](/slides/fælles-vejledermøde-2025/him3.png)
+
+## LIVING-protokol og video
+
+![](/slides/PROgrez/link.png)
+
+## Ph.d.
+
+I kan følge med på Github:  
+
+- [Gantt og TODO](https://github.com/users/Jonasmunkjensen/projects/2)  
+- [Ph.d.-landing page](https://github.com/Jonasmunkjensen/phd)  
+- [Paper 1](https://github.com/Jonasmunkjensen/paper1)  
+- [Paper 2](https://github.com/Jonasmunkjensen/paper2)  
+- [Paper 3](https://github.com/Jonasmunkjensen/paper3)

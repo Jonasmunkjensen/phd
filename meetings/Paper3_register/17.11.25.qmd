@@ -1,0 +1,20 @@
+---
+title: "Artikelmøde 1"
+format: html
+---
+
+## Formål
+
+-   Status på kombling af data til DST
+-   Drøfte variabelliste til Kasper
+
+## 
+
+Beslutningsref: 
+
+Tilknytning til DST - kontakt marie
+Udarbejde en analyseplan. Hvad er formålet, hvad er hovedspørgsmål og underspørgsmål.
+Hvordan skal tabel 1. 2 og 3 se ud. 
+Lave en variabelliste til Kasper. Hvilke variable fra hvilke spørgeskema skal vi bruge. 
+Konsultere os med Henrik
+Have søren perspektiv på. 
