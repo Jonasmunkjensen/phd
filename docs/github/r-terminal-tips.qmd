@@ -1,0 +1,18 @@
+---
+title: "R - Terminal Tips"
+format: html
+editor: visual
+---
+
+## Working with git
+
+Instead of the slow proces off staging, commiting and pushing through the window tap, it can be done through the terminal. 
+
+- Staging: git add .
+- Committing: git commit -m "the commit masseage"
+- Pushing: git push
+- Pulling: git pull
+- Get status on local and and main branch: git status
+
+OBS! Use google and not chatgpt - if you need help to find commands. 
+
