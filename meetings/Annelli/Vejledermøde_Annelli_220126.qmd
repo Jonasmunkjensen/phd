@@ -1,12 +1,50 @@
 ---
 title: "Vejledermøde_Annelli_220126"
-format: html
+format: pdf
 ---
 
-## Quarto
+# Dagsorden
 
-Træffe beslutning om Cadiovascular programme
-Snakke om budgettet og hvordan det påvirker fondsansøgninger
-Prioritere Forskningsnetværk for Komplekse Interventioner i Primærsektoren
+## Tid og sted
 
+**Tid:** 30 min\
+**Sted:** Annellis kontor
 
+## 🟡 Intention
+
+Formålet med mødet er at give en status på ph.d.-projektet, fondsansøgningerne og drøfte det Cardiovascular Programme og fælles vejledermøde.
+
+## 🟢 Desired Outcome
+
+Ved mødets afslutning har vi:
+
+\[ \] **En fælles opdateret forståelse af projektets status**\
+- *Kurser:* 
+    How to manage you phd project
+    Time management
+    Developing complex interventons
+    Biostat 1.
+    Phd day
+    Welcome to the phd study
+    
+- Oprettet på Danmarks Statistik -> analyser til paper 3
+
+- Afprøvet interviewguide og første interview til paper 2
+
+- Mangler fortsat svar fra SDU vedrørende DBA deling af acc. data til Paper 1
+
+\[ \] **Trygfonden\**
+- Jeg har orienteret mig i Trygfondens fokus og det synes relevant at søge. 
+- Vi kigger på budgettet og bliver enige om hvor meget vi skal søge hos Trygfonden
+
+*Fra sidste møde:*
+Ansøgning til Region Midtjylland er blevet sorteret fra inden den er blevet læst. Derfor søges den ikke igen. Vi aftaler at jeg nedprioriterer fondsansøgningerne for en tid. Der skal søges 3 fonde det kommende år: - Trygfonden (marts) - Jeg ringer og forhører mig om projektet flugter med deres fokus i år - DFF klinisk forskning (start juni) - Jeg holder løbende øje med call. Obs på minimum beløb på ca. 2 millioner. Vi må finde flere poster at skrive på. - Helsefonden (august) - 300.000 kr.
+
+\[ \] **Truffet beslutning om Cardiovascular Network**\
+- Jeg er i tvivl om hvad jeg får ud af dette netværk. Det virker langt fra det jeg arbejder med. 
+- Jeg vil gerne prioritere andre Journal Clubs og valgfag. 
+- Er der noget jeg overser?
+
+\[ \] **Drøfte det fælles vejledermøde d. 19 februar**\
+- Jeg har ikke særlig meget at opdatere på - udskyde det?
+- Eventuelt en anden tilgang?

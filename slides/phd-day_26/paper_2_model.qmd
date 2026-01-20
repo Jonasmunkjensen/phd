@@ -1,0 +1,20 @@
+---
+title: "Process model"
+format:
+  html:
+    mermaid: true
+---
+
+```mermaid
+flowchart LR
+    A[Offer of HIIT<br/>as part of DSMP] --> B[Initial choice]
+
+    B --> C1[Chooses HIIT<br/>Participant]
+    B --> C2[Does not choose HIIT<br/>Nonparticipant]
+
+    C1 --> D[During DSMP<br/>Bodily, social, and practical experiences]
+    C2 --> D
+
+    D --> E[End of DSMP<br/>Re-evaluation of exercise]
+
+    E --> F[Everyday life after programme<br/>Integration, adaptation, or disengagement]
