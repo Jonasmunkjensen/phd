@@ -1,6 +1,32 @@
 ---
 title: "Vejledermøde_Annelli_220126"
-format: pdf
+format:
+  pdf:
+    pdf-engine: lualatex
+    fontsize: 10pt
+    linestretch: 1.2
+    geometry:
+      - margin=2.5cm
+    tbl-cap-location: top
+    number-sections: false
+    toc: false
+    keep-tex: true
+execute:
+  echo: false
+  warning: false
+  message: false
+header-includes:
+  - \usepackage{microtype}
+  - \usepackage{ragged2e}
+  - \usepackage{tabularx}
+  - \usepackage{longtable}
+  - \usepackage{booktabs}
+  - \usepackage{array}
+  - \usepackage{pdflscape}
+  - \usepackage{setspace}
+  - \usepackage{float}
+  - \setlength{\emergencystretch}{3em}
+  - \renewcommand{\arraystretch}{1.2}
 ---
 
 # Dagsorden
@@ -18,7 +44,7 @@ Formålet med mødet er at give en status på ph.d.-projektet, fondsansøgninger
 
 Ved mødets afslutning har vi:
 
-\[ \] **En fælles opdateret forståelse af projektets status**\
+\[X\] **En fælles opdateret forståelse af projektets status**\
 - *Kurser:* 
     How to manage you phd project
     Time management
@@ -33,18 +59,24 @@ Ved mødets afslutning har vi:
 
 - Mangler fortsat svar fra SDU vedrørende DBA deling af acc. data til Paper 1
 
-\[ \] **Trygfonden\**
+\[X\] **Trygfonden\**
 - Jeg har orienteret mig i Trygfondens fokus og det synes relevant at søge. 
 - Vi kigger på budgettet og bliver enige om hvor meget vi skal søge hos Trygfonden
+
+*Beslutning*: Efter at have gennemlæst opslaget, står det klart at trygfonden ikke støtter rehabiltering som kun foregår i sundhedsvæsnet. Vi dropper derfor trygfonden. Jeg holder øje med DFF klinisk forskning og DFF tematiske opslag. 
 
 *Fra sidste møde:*
 Ansøgning til Region Midtjylland er blevet sorteret fra inden den er blevet læst. Derfor søges den ikke igen. Vi aftaler at jeg nedprioriterer fondsansøgningerne for en tid. Der skal søges 3 fonde det kommende år: - Trygfonden (marts) - Jeg ringer og forhører mig om projektet flugter med deres fokus i år - DFF klinisk forskning (start juni) - Jeg holder løbende øje med call. Obs på minimum beløb på ca. 2 millioner. Vi må finde flere poster at skrive på. - Helsefonden (august) - 300.000 kr.
 
-\[ \] **Truffet beslutning om Cardiovascular Network**\
+\[X\] **Truffet beslutning om Cardiovascular Network**\
 - Jeg er i tvivl om hvad jeg får ud af dette netværk. Det virker langt fra det jeg arbejder med. 
 - Jeg vil gerne prioritere andre Journal Clubs og valgfag. 
 - Er der noget jeg overser?
 
-\[ \] **Drøfte det fælles vejledermøde d. 19 februar**\
+*Beslutning:* Jeg afskriver mig Cardiovascular Network og prioriterer kurser og jounal clubs som padser bedre til mit forskningsfelt.  
+
+\[X\] **Drøfte det fælles vejledermøde d. 19 februar**\
 - Jeg har ikke særlig meget at opdatere på - udskyde det?
 - Eventuelt en anden tilgang?
+
+*Beslutning* Vi rykker mødet til slut april. Emner kan være analyseplan eller foreløbige resultater på artikel 3. Eventuel publicering af analyseplan. Desuden skal de andre vejederes perspektiv på analyseplanen for studie 1 og der skal tages stilling til om analyseplanen skal på som amendment til clinicaltrial.gov.
