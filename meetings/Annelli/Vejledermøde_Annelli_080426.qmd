@@ -1,6 +1,6 @@
 ---
-title: "Vejledermøde_Annelli_080426"
-format: html
+title: "Vejledermøde med Annelli 080426"
+format: pdf
 ---
 
 # Dagsorden
@@ -8,93 +8,140 @@ format: html
 ## Tid og sted
 
 **Tid:** 60 min\
-**Sted:** Annellis kontor
+**Sted:** Annellis kontor\
+**Næste møde:** 12. maj\
+**Næste fælles vejledermøde:** 15. maj
 
 ## 🟡 Intention
 
-
+Få overblik over projektets fremdrift og prioritere de næste skridt – særligt i forhold til fondsansøgninger, dataarbejde og færdiggørelse af studier.
 
 ## 🟢 Desired Outcome
 
 Ved mødets afslutning har vi:
 
-\[ \] **En fælles opdateret forståelse af projektets status**\
+\[x\] **En fælles opdateret forståelse af projektets status**
 
-*Kurser:* 
+\[x\] **Lagt en plan for fondsansøgningerne**
 
-**Færdige kurser 10 ECTS:** 
-    Health - Welcome to the PhD study
-    How to manage your PhD project: Identifying opportunities and challenges – setting the compass
-    Time and Project Management: Risk and Coordinating your daily work with the big picture
-    Developing complex interventions in Public Health
-    Basic Biostatistics - part 1
-    PhD Day 2026
-    Evaluating complex interventions in Public Health
-    
-**Frem til sommerferien 6,5 ECTS**
-    Become a productive and joyful researcher
-    EEPE summer course
-    
-**Efteråret 8,8 ECTS**
-    How to Communicate your PhD research
-    Introduction to register-based research
-    Qualitative data analysis: Using NVivo
+\[x\] **Lagt en plan frem til næste vejledning og fælles vejledermøde**
 
-*Undervisning:*
+## Punkter
+
+### Kurser
+
+**Færdige kurser 10 ECTS:**\
+- Health - Welcome to the PhD Study\
+- How to Manage Your PhD Project: Identifying Opportunities and Challenges – Setting the Compass\
+- Time and Project Management: Risk and Coordinating Your Daily Work with the Big Picture\
+- Developing Complex Interventions in Public Health\
+- Basic Biostatistics - Part 1\
+- PhD Day 2026\
+- Evaluating Complex Interventions in Public Health
+
+**Frem til sommerferien 6,5 ECTS**\
+- Become a Productive and Joyful Researcher\
+- EEPE Summer Course
+
+**Efteråret 8,8 ECTS**\
+- How to Communicate Your PhD Research\
+- Introduction to Register-Based Research\
+- Qualitative Data Analysis: Using NVivo
+
+**Phd plan**\
+- Har jeg udfyldt den korrekt? - Kan vi gøre det bedre næste gang?
+
+*Brug mindre tid næste gang*
+
+### Undervisning
 
 **Den sundhedsfaglige kandidat**
-- Intro til kvantitativ forskning
-- Power og sample size beregning
+
+\- Intro til kvantitativ forskning\
+- Power- og sample size-beregning\
 - Protocol writing
 
 **Folkesundhed på bachelordelen af medicinuddannelsen**
-- Anna Mygind Rasmussen
+
+\- Anna Mygind Rasmussen
 
 **Vejledning**
-- 2x fys.stud. Jonas og Samuel. Kontaktperson: John Brincks fra VIA. 
-- Substudie på LIVING. Beskrive effekter på iltoptagelse, styrke mm. på borgere som deltager i træning på Folkesundhed Midt
 
-*Paper 1*
--   Mangler fortsat svar fra SDU vedrørende DBA deling af acc. data til Paper 1
+\- 2x fys.stud.: Jonas og Samuel. Kontaktperson: John Brincks fra VIA\
+- Substudie på LIVING: Beskrive effekter på iltoptagelse, styrke mm. hos borgere, som deltager i træning i Folkesundhed Midt
 
-*Paper 2*
--   Bøvl med Syddjurs kommune
+Plan for processen:
 
-*Paper 3*
--   Venter på at data kommer på DST
--   Arbejder på "mapping" af lokale data. 
+*Tal med Anette omkring det juridiske. Skal vi skrive til VEK og høre om vi skal lave et tillæg eller skal vi registrere det som kvalitetsudvikling?*
 
+*Skal vi eje data (og nul-ansætte Sebastian og Jonas) eller skal VIA eje data.*
 
-\[ \] \*\*DFF\*\* 
+*Lav en hurtig sample size beregning:*
 
-OBS: 
-A max of one application may be submitted per year
-An applicant with two or more active grans from the fund may not submit
+-   *Hvad minimum detectable change*
 
-*DFF-Research Project1*
+*Vedr. test. Find check your health- fysisk aktivitet og hjertekar risiko*
+
+### Artiklerne
+
+*Paper 1* - Mangler fortsat svar fra SDU vedrørende DBA-deling af aktivitetsdata til Paper 1
+
+*Paper 2* - Bøvl med Syddjurs Kommune
+
+*Paper 3* - Venter på, at data kommer på DST\
+- Arbejder på "mapping" af lokale data
+
+### Fondsansøgninger
+
+**DFF**
+
+OBS:\
+- A maximum of one application may be submitted per year\
+- An applicant with two or more active grants from the fund may not submit
+
+***DFF – Research Project 1***\
 Link: https://dff.dk/en/apply-for-funding/see-what-you-can-apply-for/current-funding-opportunities/instruments/2026/maj/dff-research-project1-f26/
 
-- Deadline: 12 maj
-- Budget: Up to DKK 2,550,000 excl. overhead.
-- Applicant: Annelli som ansøger: You must have obtained your PhD degree or equivalent qualifications at least 3 years before the expiration of the application deadline
+-   Deadline: 12. maj\
+-   Budget: Up to DKK 2,550,000 excl. overhead\
+-   Applicant: Annelli som ansøger. You must have obtained your PhD degree or equivalent qualifications at least 3 years before the expiration of the application deadline
 
-*Tematisk opslag: Clinical and independent research*
-Link: https://dff.dk/media/4fmdkmuj/call-for-proposals-thematic-research-2026-2029.pdf
-Se side 24. 
+***Tematisk opslag: Clinical and Independent Research***\
+Link: https://dff.dk/media/4fmdkmuj/call-for-proposals-thematic-research-2026-2029.pdf\
+Se side 24
 
-- Deadline: 2 juni
-- Applicant and Co-PI must have obtained a PhD degree or equivalent qualifications at the time of the application deadline
-- Budget: Up to DKK 5,000,000
+-   Deadline: 2. juni\
+-   Applicant and Co-PI must have obtained a PhD degree or equivalent qualifications at the time of the application deadline\
+-   Budget: Up to DKK 5,000,000
 
-Afgørende: 
-- Har Annelli andre ansøgninger ude?
-- Hvor meget kan vi skrabe sammen i budgettet? 
+**Afklaring inden vi ansøger:**\
+- Har Annelli andre ansøgninger ude?\
+- Hvilket af opslagene skal vi satse på?\
+- Hvor meget kan vi skrabe sammen i budgettet?
 
-\[ \] \*\*Helsefonden\*\*
-Link: https://helsefonden.dk/saadan-soeger-du-bevilling/
+\[ \] **Helsefonden**\
+Link: https://helsefonden.dk/saadan-soeger-du-bevilling/\
+Ansøgningsfrist d. 2. september
 
 OBS:
-- Projekter der afprøver eksisterende behandling, samt medicin, kosttilskud, hjælpemidler, medicinsk udstyr eller apps/IT løsninger
-- Det støtter vi ikke: Projekter der er gået i gang forud for ansøgningsfristen eller som starter 1 år eller mere efter ansøgningsfristen.
 
+Det støtter vi ikke:
 
+\- Projekter, der afprøver eksisterende behandling, samt medicin, kosttilskud, hjælpemidler, medicinsk udstyr eller apps/IT-løsninger\
+- Projekter, der er gået i gang forud for ansøgningsfristen eller som starter 1 år eller mere efter ansøgningsfristen
+
+**Afklaring inden vi ansøger:**
+
+\- Er vi meldt ude pga. kravene ovenfor – eller kan vi snige os med?
+
+Konklusion:
+
+*Vi går efter det tematiske opslag for DFF. Jonas skriver ansøgning med Annelli som afsender og Anette com co-pi. Større fokus på komplekse interventioner, og inddragelse af substudiet og observationer. Lav eksempelvis en program teori.*
+
+### Inden fælles vejledermøde
+
+**Studie 3** - Færdiggøre analyseplan\
+- Gøre mapping mere læsevenlig
+
+**Studie 2** - Prioritere dataindsamling\
+- Snakke med Sara om antallet af deltagere (OBS: kun 2 borgere har fravalgt træningen på dette hold)
