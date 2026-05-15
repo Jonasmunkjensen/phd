@@ -1,0 +1,265 @@
+---
+title: "Fælles vejledermøde"
+author: "Jonas Munk Jensen"
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    from: markdown+emoji
+    footer: "Fælles vejledermøde · 15.05.2026"
+    width: 1400
+    height: 900
+    transition: fade
+    incremental: false
+exclude-from-listing: true
+---
+
+# Status 📍
+
+## Ph.d.-kurser gennemført (10 ECTS)
+
+- Health – Welcome to the PhD Study
+- How to Manage Your PhD Project: Identifying Opportunities and Challenges
+- Time and Project Management: Risk and Coordinating Your Daily Work
+- Developing Complex Interventions in Public Health
+- Basic Biostatistics – Part 1
+- PhD Day 2026
+- Evaluating Complex Interventions in Public Health
+
+---
+
+# Kommende kurser 📚
+
+## Frem mod sommerferien (6,5 ECTS)
+
+- Become a Productive and Joyful Researcher
+- EEPE Summer Course
+
+## Efteråret (8,8 ECTS)
+
+- How to Communicate Your PhD Research
+- Introduction to Register-Based Research
+- Qualitative Data Analysis: Using NVivo
+
+---
+
+# Undervisning og vejledning 🎓
+
+## Den sundhedsfaglige kandidat
+
+- Introduktion til kvantitativ forskning
+- Power- og sample size-beregning
+- Protocol writing
+
+## Folkesundhed på medicinstudiet
+
+- Anna Mygind Rasmussen
+
+## Vejledning
+
+- 2 fysioterapeutstuderende:
+  - Jonas og Samuel
+  - Kontaktperson fra VIA: John Brincks
+
+- Substudie i LIVING:
+  - Effekter på iltoptagelse, styrke m.m.
+  - Borgere der deltager i træning i Folkesundhed Midt
+
+---
+
+# Fondsmidler 💰
+
+![](/slides/fælles-vejledermøde_150526/funding.png)
+
+::: {.callout-note}
+## Refleksion
+
+- En udfordring at mange fonde ikke støtter allerede opstartede projekter
+- Er der relevante fonde, I tænker kunne være oplagte?
+:::
+
+---
+
+# Github og samarbejde 💻
+
+- Github fungerer fint som fælles platform og arkiv
+- Lidt tungt til samskrivning
+- Til artikelarbejde overvejer jeg andre løsninger:
+  - Fx Overleaf via AU eller andre løsninger?
+
+---
+
+# Status på studierne 🔬
+
+## RCT-studiet
+
+- Databehandleraftale med SDU er på plads
+- Sidste kommune (Vejen) afslutter dataindsamling 18. juni
+- Overvejer økonomiske analyser:
+  - Selvstændig artikel?
+  - Eller del af hovedartiklen fra LIVING?
+
+---
+
+# Kvalitativt studie 🎤
+
+- Opstartsvanskeligheder med dataindsamlingen
+- Inkluderer sandsynligvis et ekstra hold efter sommerferien
+- Overvejer 1-års opfølgning
+- Tidsplanen justeres tilsvarende
+
+---
+
+# Tværsnitsstudie 📊
+
+- Afventer at ekstraundersøgelsen bliver tilgængelig på DST
+- Arbejder på analyseplan/protokol
+  - Plan om preregistrering på OSF
+
+## Fokus lige nu
+
+- Fortællingen i data 👀
+
+---
+
+# Foreløbige resultater 📈
+
+## Har din behandler inden for de sidste 5 år henvist dig til et kommunalt tilbud?
+
+![](/slides/fælles-vejledermøde_150526/refgp.png)
+
+---
+
+# Tilbud om hjælp til fysisk aktivitet og/eller træning
+
+![](/slides/fælles-vejledermøde_150526/ex.png)
+
+---
+
+# Stratificeret på køn 👥
+
+![](/slides/fælles-vejledermøde_150526/exsex.png)
+
+---
+
+# Stratificeret på arbejdsmarkedstilknytning 💼
+
+![](/slides/fælles-vejledermøde_150526/exwork.png)
+
+---
+
+# En tendens på tværs af tilbud 🔍
+
+![](/slides/fælles-vejledermøde_150526/mental.png)
+
+---
+
+# Overordnet mønster på tværs af tilbud
+
+## Det vi ser i data
+
+- Lav uptake af kommunale sundhedstilbud (~10–15 %)
+- Samtidig en gruppe med uopfyldt efterspørgsel (~15–20 %)
+- Mange angiver:
+  - “Ikke behov”
+  - “Ikke relevant”
+
+## Mulig fortælling
+
+Mismatch mellem:
+
+- Behov
+- Tilbud
+- Kommunikation - kvalitativt: informanter fortæller at de ville have ønsket tilbudet tidligere
+- Ved "ikke behov" og "ikke relevant" hvad de takker nej til?
+
+---
+
+# Fokus i artiklen 🎯
+
+## Primært fokus
+
+- Fysisk aktivitet og træning
+
+## Perspektivering
+
+- Mental health support og øvrige tilbud bruges til at:
+  - Understøtte mønstret
+  - Perspektivere fundene
+  - Pege på en mulig strukturel udfordring
+
+---
+
+# Socialt mønster 👥
+
+::: {.incremental}
+
+## Borgere uden for arbejdsmarkedet
+
+- Modtager oftere tilbud
+
+## Erhvervsaktive borgere
+
+- Tegn på uopfyldt behov
+
+## Mulig tolkning
+
+- Træningstilbud når ikke erhvervsaktive i samme grad
+- På trods af efterspørgsel
+
+:::
+
+# Mulig fortælling 🧩
+
+- Mønstret går igen på tværs af tilbud
+- Potentielt en strukturel udfordring
+
+---
+
+# Mulige analyser fremadrettet 🧠
+
+- Hvem får tilbud?
+- Hvem accepterer tilbud?
+- Hvem ønsker tilbud uden at få dem?
+- Er der systematiske sociale mønstre?
+- Hvor opstår “bruddet” i kæden?
+
+---
+
+# Hvordan skal eksponering defineres?
+
+## Mulighed 1: Nuanceret tilgang
+
+- Skelne mellem:
+  1. Tilbud + accept
+  2. Tilbud + ikke accept
+  3. Ingen tilbud
+
+### Fordel
+- Kan identificere hvor “bruddet” opstår
+
+### Overvejelse
+- Er gruppen “tilbud + ikke accept” stor nok?
+  - ~3 % (n = 125)
+
+---
+
+# Hvordan skal eksponering defineres?
+
+## Mulighed 2: Traditionel tilgang
+
+- Klassisk dikotomisering:
+  - Eksponeret
+  - Ikke eksponeret
+
+### Fordel
+
+- Simpel analyse
+- Lettere at kommunikere
+- Mere klassisk epidemiologisk tilgang
+
+---
+
+# Fremtidige møder
+
+- Møder i kalenderen hver 4 måned de næste to år frem?
