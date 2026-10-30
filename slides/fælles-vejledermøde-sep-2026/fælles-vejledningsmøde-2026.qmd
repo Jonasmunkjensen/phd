@@ -1,0 +1,112 @@
+---
+title: "Fælles vejledermøde - September 2026"
+author: "Jonas Munk Jensen"
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    from: markdown+emoji
+    footer: "Fælles vejledermøde · September 2026"
+    width: 1400
+    height: 900
+    transition: fade
+    incremental: false
+exclude-from-listing: true
+---
+
+# Status :round_pushpin:
+
+**Ph.d.-kurser gennemført (16,5 ECTS)**
+
+- Health – Welcome to the PhD Study
+- How to Manage Your PhD Project: Identifying Opportunities and Challenges
+- Time and Project Management: Risk and Coordinating Your Daily Work
+- Developing Complex Interventions in Public Health
+- Basic Biostatistics – Part 1
+- PhD Day 2026
+- Evaluating Complex Interventions in Public Health
+- Become a Productive and Joyful Researcher
+- EEPE Summer Course
+
+------------------------------------------------------------------------
+
+**Efteråret (7,3 ECTS)**
+
+- Introduction to Register-Based Research
+- Qualitative Data Analysis: Using NVivo ??
+
+------------------------------------------------------------------------
+
+## Undervisning og vejledning :mortar_board:
+
+**Den sundhedsfaglige kandidat**
+
+- Introduktion til kvantitativ forskning
+- Protocol writing
+- Power- og sample size-beregning
+
+**Vejledning**
+
+- 2 fysioterapeutstuderende: Jonas og Samuel
+
+- Substudie i LIVING: Borgere der deltager i træning i Folkesundhed Midt
+
+  - BP, Ekbom-bak test, RSS, 6mw, bryst pres, benpres
+
+- Hold 1: 5 baseline test gennemførst. Sluttest i uge 41.
+
+- Hold 2: Baseline test i uge 40. Sluttest i uge 50/51
+
+------------------------------------------------------------------------
+
+## Status på studierne :microscope:
+
+**Studie 1 (RCT) \[Klar til analyse\]**
+
+- Dataindsamling afsluttet
+- Accellerometerdata bearbejdet af SDU
+
+------------------------------------------------------------------------
+
+## Foreløbige resultater Vejen
+
+### Within group
+![](/slides/fælles-vejledermøde-sep-2026/kontrol.png)
+![](/slides/fælles-vejledermøde-sep-2026/intervention.png)
+------------------------------------------------------------------------
+
+### Between group
+
+![](/slides/fælles-vejledermøde-sep-2026/between.png)
+------------------------------------------------------------------------
+
+## Vejen vs Aarhus
+
+**Within group**
+
+![](/slides/fælles-vejledermøde-sep-2026/intervention.png)
+
+![](/slides/fælles-vejledermøde-sep-2026/intervention2.png)
+
+------------------------------------------------------------------------
+
+# Studie 2
+
+![](/slides/fælles-vejledermøde-sep-2026/qual.png)
+
+------------------------------------------------------------------------
+
+# Studie 3
+
+- Data er samlet på danmarks statistik 
+- Protokol (næsten færdig)
+
+**Forfatterrække**
+
+Jonas, Søren, Kasper, Henrik, Annelli, Anette
+
+------------------------------------------------------------------------
+
+## Skal RCT eller tværsnitstudie prioriteres først?
+
+![](/slides/fælles-vejledermøde-sep-2026/time.png)

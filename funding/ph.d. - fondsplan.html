@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<title>Ph.d.-fondsplan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; deadline strip on top, filterable fund cards, then rejected funds. */
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --ink:#1c2422; --muted:#5d6b67; --line:#dde3e0;
+  --accent:#1f6f5c; --accent-soft:#e3f0eb;
+  --a:#1f6f5c; --b:#9a6a14; --c:#7a7f86; --warn:#b4432a; --warn-soft:#fbe9e4;
+  --f-display:"Newsreader",Georgia,serif; --f-body:"IBM Plex Sans",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121816; --surface:#1a2220; --ink:#e4ebe8; --muted:#9aa9a4; --line:#2c3633;
+  --accent:#6cc3a8; --accent-soft:#1f3a32; --a:#6cc3a8; --b:#e0b35e; --c:#9aa0a6; --warn:#f08a70; --warn-soft:#3a221c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121816; --surface:#1a2220; --ink:#e4ebe8; --muted:#9aa9a4; --line:#2c3633;
+  --accent:#6cc3a8; --accent-soft:#1f3a32; --a:#6cc3a8; --b:#e0b35e; --c:#9aa0a6; --warn:#f08a70; --warn-soft:#3a221c; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:980px;margin:0 auto;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:36px}
+h1,h2{font-family:var(--f-display);font-weight:600;text-wrap:balance;margin:0}
+h1{font-size:2.1rem;line-height:1.15}
+h2{font-size:1.4rem}
+p{margin:0;max-width:68ch}
+.lede{color:var(--muted)}
+.eyebrow{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+header{display:flex;flex-direction:column;gap:10px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:.88rem;color:var(--muted)}
+.facts b{color:var(--ink);font-weight:600}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* deadlines */
+.soon{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.dl{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.dl.hot{border-color:var(--warn);background:var(--warn-soft)}
+.dl .d{font-family:var(--f-mono);font-size:.85rem;font-weight:500}
+.dl.hot .d{color:var(--warn)}
+.dl .n{font-weight:600;line-height:1.3}
+.dl .w{font-size:.82rem;color:var(--muted)}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:5px 13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.count{font-size:.85rem;color:var(--muted)}
+
+/* fund list */
+.list{display:flex;flex-direction:column;gap:12px}
+.fund{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:grid;grid-template-columns:44px 1fr;gap:4px 14px}
+.grade{grid-row:span 3;font-family:var(--f-display);font-size:1.6rem;font-weight:600;line-height:1;text-align:center;padding-top:2px}
+.grade small{display:block;font-family:var(--f-body);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:4px;font-weight:600}
+.g-A{color:var(--a)} .g-B{color:var(--b)} .g-C{color:var(--c)}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;min-width:0}
+.top h3{margin:0;font-size:1.05rem;font-weight:600}
+.top a{color:var(--accent);font-size:.82rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:.74rem;border-radius:4px;padding:2px 8px;background:var(--accent-soft);color:var(--ink);white-space:nowrap}
+.tag.fam-yes{background:var(--accent);color:var(--bg)}
+.tag.fam-no{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.tag.fam-unk{background:transparent;border:1px dashed var(--b);color:var(--b)}
+.tag.src{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:4px 18px;font-size:.86rem;min-width:0}
+.meta div{min-width:0}
+.meta span{display:block;font-size:.7rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.note{font-size:.88rem;color:var(--ink);min-width:0}
+.note.warn{color:var(--warn)}
+.empty{color:var(--muted);font-style:italic}
+
+/* rejected */
+details{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 18px}
+summary{cursor:pointer;font-weight:600}
+.rej{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.rej div{font-size:.88rem;display:grid;grid-template-columns:minmax(150px,240px) 1fr;gap:12px;border-top:1px solid var(--line);padding-top:8px}
+.rej b{font-weight:600}
+.callout{border-left:3px solid var(--b);padding:2px 0 2px 14px;display:flex;flex-direction:column;gap:6px}
+footer{font-size:.8rem;color:var(--muted)}
+@media (max-width:520px){.rej div{grid-template-columns:1fr;gap:2px} h1{font-size:1.7rem}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Ph.d. · Institut for Folkesundhed, AU · nul-ansat AUH</div>
+  <h1>Fondsplan: løn til sidste ph.d.-år og 4 måneder i Melbourne</h1>
+  <p class="lede">Fonde til ca. 400.000 kr. i løn (okt. 2027–sep. 2028) og et ophold hos Deakin University og Baker Heart and Diabetes Institute. Hver fond er tjekket på dens egen side pr. 19. oktober 2026, medmindre andet står.</p>
+  <div class="facts"><div>Mål, løn: <b class="mono">≈ 400.000 kr.</b></div><div>Ophold: <b>4 mdr., Australien</b></div><div>Alder: <b>37</b> (udelukker fonde med grænse ≤ 35)</div></div>
+</header>
+
+<section style="display:flex;flex-direction:column;gap:12px">
+  <h2>Næste frister</h2>
+  <div class="soon" id="soon"></div>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:14px">
+  <h2>Fonde, sorteret efter relevans og frist</h2>
+  <p class="lede" style="font-size:.9rem">A = søg, B = værd at søge, C = lav sandsynlighed eller uafklaret. Familie-mærket viser, om fonden kan dække medrejsende ægtefælle og børn.</p>
+  <div class="filters" role="group" aria-label="Filtrér fonde">
+    <button class="chip" id="f-all" data-f="all" aria-pressed="true">Alle</button>
+    <button class="chip" id="f-lon" data-f="lon" aria-pressed="false">Løn</button>
+    <button class="chip" id="f-oph" data-f="oph" aria-pressed="false">Udlandsophold</button>
+    <button class="chip" id="f-fam" data-f="fam" aria-pressed="false">Kan dække familie</button>
+    <button class="chip" id="f-own" data-f="own" aria-pressed="false">Fra din liste</button>
+    <button class="chip" id="f-loc" data-f="loc" aria-pressed="false">Lokalt og alternativt</button>
+  </div>
+  <div class="count" id="count"></div>
+  <div class="list" id="list"></div>
+</section>
+
+<section class="callout">
+  <h2 style="font-size:1.15rem">Familien er det svære punkt</h2>
+  <p>De fleste rejsefonde dækker kun dine egne udgifter. Graduate School of Health, Knud Højgaards Fond og instituttets rejsekonto udelukker familie direkte. Den eneste fond, jeg fandt med eksplicit familiedækning (AUFF sabbaticalstipendium), kan kun søges af fastansatte. Instituttet godkender dog, at eksterne fondsmidler bruges til medrejsende familie. Familieudgifterne skal derfor budgetteres som en særskilt post og søges hos de bredere fonde med "Ukendt"-mærke, hvor det ikke er udelukket.</p>
+</section>
+
+<section class="callout">
+  <h2 style="font-size:1.15rem">Veje uden for fondsdatabaserne</h2>
+  <p>Spørg værterne hos Deakin og Baker, om de har midler til gæsteforskere, fx gratis kontorplads, boligformidling eller en lille opholdsstøtte. Det reducerer budgettet direkte. Lokale Rotary- og Lions-klubber på Djursland og i Kalundborg giver nogle gange mindre beløb til lokale borgere; en kort mail til klubpræsidenten koster ingenting. Søg også på "Kalundborg" og "Syddjurs" i Legatbogen og Fondsmatch, da små lokale legater sjældent findes via Google.</p>
+</section>
+
+<details>
+  <summary>Fravalgt: fonde der ikke passer (spar tiden)</summary>
+  <div class="rej" id="rej"></div>
+</details>
+
+<footer>Antagelse: opholdet ligger i 2027 eller i dit sidste ph.d.-år. Frister for 2027 er udledt af 2026-mønstret og skal bekræftes, når opslagene kommer.</footer>
+</div>
+
+<script>
+const T=new Date("2026-10-19");
+const F=[
+ {n:"Diabetesforeningens rejselegater",t:["oph"],g:"A",fam:"no",own:false,amt:"10.000 kr.",dl:"2026-11-01",dlt:"1. nov. 2026 (frister 1/2, 1/5, 1/8, 1/11)",who:"Ph.d.-studerende i diabetesforskning, inkl. forebyggelse",note:"Hurtigt svar (ca. 3 uger) og kort ansøgning: 1 side + CV + vejlederanbefaling. Kan ikke bruges til påbegyndt ophold.",u:"https://diabetes.dk/forskning/legater-og-priser/rejselegater/"},
+ {n:"Helga og Peter Kornings Fond",t:["oph"],g:"A",fam:"no",own:true,amt:"Maks. 25.000 kr.",dl:"2026-11-15",dlt:"15. nov. 2026, kl. 23.59",who:"Forskere tilknyttet Aarhus-området",note:"Dækker bl.a. lægevidenskabelige samarbejdsprojekter i udlandet. Ingen løn. Svar ultimo februar, så opholdet skal starte efter det.",u:"https://health.au.dk/om-os/fonde-og-legater-ved-health/helga-og-peter-kornings-fond"},
+ {n:"Graduate School of Health, opholdsstøtte",t:["oph"],g:"A",fam:"no",own:false,amt:"Op til 15.000 kr./md., maks. 90.000 kr. i alt",dl:null,dlt:"Senest 14 dage før afrejse",who:"Indskrevne ph.d.-studerende på Health",note:"4 måneder giver op til 60.000 kr. Dækker fly, bolig og visum. Udelukker familieudgifter. Sikker grundfinansiering.",u:"https://phd.health.au.dk/doingaphd/changeofresearchenvironment/researchstayabroad"},
+ {n:"Knud Højgaards Fond",t:["oph"],g:"A",fam:"no",own:true,amt:"Ikke oplyst",dl:null,dlt:"Løbende, senest 1 md. før start",who:"Ph.d.-studerende og postdocs, ophold over 3 mdr.",note:"Kræver egenfinansiering (løn tæller), invitation fra værten og vejlederanbefaling. Dækker ikke familie. Udbetales til din NemKonto.",u:"https://www.khf.dk/ansoegninger/studierejser-for-ph-d-studerende-og-post-docs/"},
+ {n:"Alfred Benzon Fonden",t:["oph"],g:"A",fam:"no",own:true,amt:"Op til 25.000 kr.",dl:null,dlt:"Løbende, senest 5 mdr. før start",who:"Ph.d.-studerende m.fl. i sundhedsvidenskab",note:"Ophold på 1–6 måneder. Kun rejse og bolig. Svar efter 2–3 måneder. Husk 5-måneders reglen.",u:"https://benzon-foundation.dk/grants-for-short-research-stays-abroad-for-early-career-researchers-in-temporary-positions/"},
+ {n:"AUHs Internationaliseringspulje",t:["oph"],g:"A",fam:"unk",own:true,amt:"Pulje på 5,8 mio. kr. (2026)",dl:"2027-05-01",dlt:"I dag 19. okt. 2026; ellers forventet 1. maj 2027",who:"AUH-ansatte; ophold på udenlandske universitetshospitaler, min. 4 uger",note:"Tjek forretningsordenen på AUH Intra: om nul-ansættelse giver adgang, og om familieudgifter kan indgå. Baker er et forskningsinstitut, så tjek også om det tæller.",u:""},
+ {n:"Region Midtjyllands Sundhedsvidenskabelige Forskningsfond, ph.d.-projekter",t:["lon"],g:"A",fam:"na",own:false,amt:"Maks. 600.000 kr. (løn)",dl:"2027-09-01",dlt:"Forventet ca. 1. sep. 2027 (2026: 1. sep.)",who:"Ph.d.-projekter udført helt eller delvist på en RM-enhed, fx AUH",note:"Dit bedste bud på løn. Krav om deltidsansættelse i regionen er fjernet. Midler kan tidligst bruges fra 1. januar året efter, dvs. jan.–sep. 2028. Kræver medfinansiering og hospitalsledelsens prioritering; tal med AUH/SDCA tidligt.",u:"https://www.fagperson.sundhed.rm.dk/forskning-og-innovation/puljer-og-fonde/region-midtjyllands-sundhedsvidenskabelige-forskningsfond/phd-projekter/"},
+ {n:"Danske Fysioterapeuters fond for forskning",t:["lon"],g:"A",fam:"na",own:false,amt:"Ikke oplyst",dl:"2027-10-01",dlt:"1. okt. hvert år (2026 er passeret)",who:"Ordinære medlemmer med dansk autorisation",note:"Dækker løn til fysioterapeuten, der udfører projektet. Prioriteret tema 2025–27: værdien af fysioterapi i behandling og forebyggelse. Støtter ikke studieophold.",u:"https://www.fysio.dk/fafo/fonde/danske-fysioterapeuters-fond-for-forskning-uddannelse-og-praksisudvikling/forskning"},
+ {n:"EliteForsk-rejsestipendium",t:["oph"],g:"B",fam:"unk",own:false,amt:"200.000 kr.",dl:null,dlt:"Kræver indstilling fra AU; spørg Graduate School nu",who:"Særligt talentfulde ph.d.-studerende, op til 20 om året",note:"Konkurrencepræget, men beløbet kan reelt dække et længere ophold. Ansøges ikke direkte.",u:""},
+ {n:"Frimodt-Heineke Fonden",t:["oph","lon"],g:"B",fam:"unk",own:false,amt:"Ikke oplyst",dl:"2027-03-01",dlt:"1. mar. og 1. sep. (fra fondsdatabase)",who:"Ph.d.-studerende i Danmark, videnskab og forskning",note:"Kilde er en fondsdatabase, ikke fondens egen side. Bekræft frister før ansøgning.",u:""},
+ {n:"Institut for Folkesundhed, rejsekonto",t:["oph"],g:"B",fam:"no",own:true,amt:"Maks. 10.000 kr.",dl:"2026-11-10",dlt:"Den 10. hver måned (ikke juli)",who:"Ansatte min. 50 % på instituttet",note:"Skal tilbagebetales, hvis du får støtte fra anden side. Brug den som sidste udvej. Instituttet godkender, at eksterne midler dækker familie.",u:"https://ph.medarbejdere.au.dk/oekonomi-indkoeb-og-rejser/rejseansoegninger/"},
+ {n:"Familien Hede Nielsens Fond",t:["oph","lon"],g:"B",fam:"unk",own:true,amt:"Uddeler 5–8 mio. kr./år samlet",dl:null,dlt:"Løbende",who:"Bred: videnskab, uddannelse, kultur",note:"Bred fond uden udelukkelse af familie. God kandidat til familieposten.",u:""},
+ {n:"Etly og Jørgen Stjerngrens Fond",t:["oph"],g:"B",fam:"unk",own:true,amt:"Ingen fast grænse",dl:null,dlt:"Ikke fundet",who:"Unge forskere i sygdomsbehandling eller samfundsvidenskab",note:"Formålet passer godt (forskning og rejser). Fristen kunne jeg ikke finde online; kontakt administrator.",u:""},
+ {n:"Christian og Ottilia Brorsons Rejselegater",t:["oph"],g:"C",fam:"unk",own:true,amt:"Typisk ca. 15.000 kr.",dl:null,dlt:"Ikke fundet",who:"Yngre forskere, studieophold i udlandet",note:"Mindre beløb. Frist ikke fundet online.",u:""},
+ {n:"Torben og Alice Frimodts Fond",t:["oph"],g:"C",fam:"unk",own:false,amt:"Ikke oplyst",dl:null,dlt:"Tidligere 15. mar. (bekræft)",who:"Ph.d.-studerende med dansk universitetstilknytning",note:"Støtter mindre ophold, hvor beløbet er afgørende. Kilde er fondsdatabase.",u:""},
+ {n:"Julie von Müllens Fond",t:["oph"],g:"C",fam:"unk",own:true,amt:"Ikke oplyst",dl:"2027-10-01",dlt:"1. okt. (2026 er passeret)",who:"Danske forskere; kun undtagelsesvis ph.d.-studerende",note:"Lav sandsynlighed for ph.d.-studerende.",u:"https://www.royalacademy.dk/da/Legater/Legater/Julie-von-Mullen"},
+ {n:"Filtenborgs Studielegat",t:["oph"],g:"C",fam:"unk",own:true,amt:"Pulje ca. 150.000 kr./år",dl:"2027-03-01",dlt:"Rejselegat ca. 1. mar. (fra fondsdatabase)",who:"Studerende ved Aarhus Universitet",note:"Uklart om ph.d.-studerende kan søge. Spørg SU-kontoret.",u:""},
+ {n:"Tved Sparekasses Fond",t:["oph"],g:"B",fam:"unk",own:false,loc:true,amt:"Ikke oplyst (ca. 1,5 mio. kr./år samlet)",dl:"2027-03-01",dlt:"Løbende ifølge Legatbogen; avisomtale nævner 1. mar. og 1. sep.",who:"Personer fra det tidligere Tved Sparekasses område (Tved, Knebel, Mols) til dygtiggørelse i Danmark eller udlandet",note:"Støtter enkeltpersoners dygtiggørelse, også i udlandet, og ca. halvdelen af ansøgerne har fået støtte. Kræver motiveret ansøgning, budget og plan for afrapportering. Send til tvedsparekassesfond@gmail.com. Ebeltoft ligger lige uden for Mols i snæver forstand, så skriv kort til fonden og spørg, før du bruger tid på en fuld ansøgning.",u:"https://www.legatbogen.dk/tved-sparekasses-fond/stoetteomraade/12747"},
+ {n:"Kalundborg Kommunes legat for studenter fra Kalundborg Gymnasium",t:["lon","oph"],g:"B",fam:"unk",own:false,loc:true,amt:"Pulje på 100.000 kr./år",dl:"2027-06-01",dlt:"1. jun. 2027",who:"Studenter og HF-dimittender fra Kalundborg Gymnasium",note:"Du er student derfra, så du er i målgruppen. Støtter studier ved danske universiteter; afklar med kommunen, om ph.d. tæller, før du skriver. Små puljer giver få ansøgere.",u:"https://www.legatbogen.dk/kalundborg-kommunes-legat-for-studenter-og-dimittender-med-hf-fra-kalundborg-gymnasium"},
+ {n:"Købmand S.P. Jensen og hustrus mindelegat",t:["oph"],g:"C",fam:"unk",own:false,loc:true,amt:"Ikke oplyst",dl:"2027-05-31",dlt:"31. maj 2027",who:"Unge under uddannelse, fortrinsvis med tilknytning til Kalundborg Kommune",note:"Målrettet unge, så din alder kan tælle imod. Billig at søge, hvis du alligevel skriver en ansøgning.",u:""},
+ {n:"Rotary Foundation Global Grant",t:["oph"],g:"C",fam:"unk",own:false,loc:true,amt:"Projektbaseret, typisk stort",dl:null,dlt:"Kræver sponsor-klub i DK og i Australien",who:"Kandidat- og forskningsstuderende i Rotarys fokusområder, bl.a. sygdomsforebyggelse og -behandling",note:"Fokusområdet passer, og en lokal klub (fx på Djursland eller i Kalundborg) kan være døråbner. Stipendiet er dog beregnet til 1–4 akademiske år, så 4 måneder passer sandsynligvis ikke. Spørg den lokale klub, om de kan støtte direkte.",u:"https://lharotary.com/Stories/the-rotary-foundations-global-scholarships"},
+ {n:"Den Regionale Kompetencefond",t:["oph"],g:"C",fam:"unk",own:true,amt:"Ukendt",dl:null,dlt:"Se mail fra Trine",who:"Regionalt ansatte (kompetenceudvikling)",note:"Kunne ikke verificeres online. Tjek om nul-ansættelse giver adgang, og om forskningsophold tæller som kompetenceudvikling.",u:""}
+];
+const R=[
+ ["DDEA ph.d.-stipendier","Kun for kandidater, der ikke er indskrevet endnu."],
+ ["Diabetesforeningens forskningslegat","Kræver opnået ph.d.-grad."],
+ ["EASD Albert Renold Travel Fellowship","Kræver opnået ph.d.-grad."],
+ ["AUFF sabbaticalstipendium","Dækker familie, men kun for fastansatte lektorer/professorer."],
+ ["Augustinus Fonden, studieophold","Støtter nu kun studerende på kunstneriske uddannelser."],
+ ["Reinholdt W. Jorck og Hustrus Fond","Aldersgrænse 35 år."],
+ ["Carlsbergfondet / DFF International Postdoc","Kræver ph.d.-grad; postdoc-virkemidler."],
+ ["Sparekassen Midtdjurs, Søby-Skader-Halling Sparekasse, Sparekassen Danmark Fonden Djursland","Lokale Djursland-fonde, men de støtter foreninger og lokale projekter, ikke enkeltpersoners uddannelse."],
+ ["Kalundborg Håndværkerforenings Uddannelsesfond","Kun for håndværkere."]
+];
+const famLbl={no:["fam-no","Kun dig"],unk:["fam-unk","Familie: ukendt"],yes:["fam-yes","Dækker familie"],na:["fam-no","Løn"]};
+const ord={A:0,B:1,C:2};
+const dkey=f=>f.dl?f.dl:"9999";
+F.sort((a,b)=>ord[a.g]-ord[b.g]||dkey(a).localeCompare(dkey(b)));
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let cur="all";
+try{cur=localStorage.getItem("fundFilter")||"all"}catch(e){}
+function render(){
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===cur?"true":"false"));
+  const v=F.filter(f=>cur==="all"||(cur==="lon"&&f.t.includes("lon"))||(cur==="oph"&&f.t.includes("oph"))||(cur==="fam"&&(f.fam==="yes"||f.fam==="unk"))||(cur==="own"&&f.own)||(cur==="loc"&&f.loc));
+  document.getElementById("count").textContent=v.length+" fonde";
+  document.getElementById("list").innerHTML=v.length?v.map(f=>{
+    const fl=famLbl[f.fam];
+    const types=f.t.map(t=>`<span class="tag">${t==="lon"?"Løn":"Udlandsophold"}</span>`).join("");
+    return `<article class="fund"><div class="grade g-${f.g}">${f.g}<small>${f.g==="A"?"søg":f.g==="B"?"værd":"lav"}</small></div>
+    <div class="top"><h3>${esc(f.n)}</h3>${f.u?`<a href="${f.u}" target="_blank" rel="noopener">Fondens side ↗</a>`:""}</div>
+    <div class="tags">${types}<span class="tag ${fl[0]}">${fl[1]}</span>${f.own?'<span class="tag src">Fra din liste</span>':""}${f.loc?'<span class="tag src">Lokalt</span>':""}</div>
+    <div class="meta"><div><span>Frist</span><span class="mono" style="font-size:.86rem;letter-spacing:0;text-transform:none;color:var(--ink);font-weight:400">${esc(f.dlt)}</span></div><div><span>Beløb</span>${esc(f.amt)}</div><div><span>Hvem</span>${esc(f.who)}</div></div>
+    <p class="note" style="grid-column:2">${esc(f.note)}</p></article>`}).join(""):'<p class="empty">Ingen fonde i dette filter.</p>';
+}
+document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{cur=c.dataset.f;try{localStorage.setItem("fundFilter",cur)}catch(e){}render()}));
+render();
+const soon=[
+ {d:"19. okt. 2026",n:"AUHs Internationaliseringspulje",w:"I dag. Ellers næste runde 1. maj 2027.",hot:true},
+ {d:"1. nov. 2026",n:"Diabetesforeningens rejselegat",w:"10.000 kr. Kort ansøgning.",hot:true},
+ {d:"10. nov. 2026",n:"Folkesundhed rejsekonto",w:"Månedlig frist; vent til de eksterne svar.",hot:false},
+ {d:"15. nov. 2026",n:"Helga og Peter Kornings Fond",w:"Op til 25.000 kr.",hot:true},
+ {d:"1. mar. 2027",n:"Frimodt-Heineke Fonden",w:"Bekræft frist.",hot:false},
+ {d:"Ca. 1. sep. 2027",n:"RM Forskningsfond, ph.d.-løn",w:"Op til 600.000 kr. Forbered fra foråret.",hot:false},
+ {d:"1. okt. 2027",n:"Danske Fysioterapeuters fond",w:"Løn; kræver medlemskab.",hot:false}
+];
+document.getElementById("soon").innerHTML=soon.map(s=>`<div class="dl${s.hot?" hot":""}"><div class="d">${s.d}</div><div class="n">${esc(s.n)}</div><div class="w">${esc(s.w)}</div></div>`).join("");
+document.getElementById("rej").innerHTML=R.map(r=>`<div><b>${esc(r[0])}</b><span>${esc(r[1])}</span></div>`).join("");
+</script>
+
+</body>
+</html>
